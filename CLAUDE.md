@@ -5,7 +5,7 @@ PMDCollab SpriteCollab의 8방향 스프라이트 시트 사용.
 
 ## 빌드
 - Xcode 프로젝트: `poketmon.xcodeproj`
-- 타겟: macOS 15.5+
+- 타겟: macOS 14.0+
 - 언어: Swift
 
 ## 아키텍처
