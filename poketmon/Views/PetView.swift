@@ -17,9 +17,6 @@ final class PetView: NSView {
     /// 드래그 중 여부 (드래그 중에는 ignoresMouseEvents 유지)
     private var isDragging = false
 
-    /// 지연된 클릭 동작 (더블클릭 판별용 — 250ms 후 Reaction 실행)
-    private var pendingClickAction: DispatchWorkItem?
-
     /// 드래그 시작 시 마우스와 포켓몬 위치의 오프셋 (스냅 방지)
     private var dragOffset: CGPoint = .zero
 
@@ -188,14 +185,6 @@ final class PetView: NSView {
         let globalLocation = NSEvent.mouseLocation
         mouseDownLocation = globalLocation
 
-        if event.clickCount == 2 {
-            // 더블클릭: 지연된 좌클릭 취소 + 선택기 열기
-            pendingClickAction?.cancel()
-            pendingClickAction = nil
-            PokemonSelectorWindowController.shared.open()
-            return
-        }
-
         // 드래그 오프셋 계산 — 포켓몬 중심과 클릭 위치의 차이를 기억
         let petPos = PetManager.shared.stateMachine.position
         dragOffset = CGPoint(
@@ -215,8 +204,6 @@ final class PetView: NSView {
 
             // 드래그 시작
             isDragging = true
-            pendingClickAction?.cancel()
-            pendingClickAction = nil
             PetManager.shared.startDrag()
         }
 
@@ -248,15 +235,8 @@ final class PetView: NSView {
             return
         }
 
-        // 클릭 (드래그가 아닌 경우)
-        // 250ms 지연 후 Reaction 실행 — 더블클릭이 들어오면 cancel
-        if event.clickCount == 1 {
-            let workItem = DispatchWorkItem {
-                PetManager.shared.react()
-            }
-            pendingClickAction = workItem
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.25, execute: workItem)
-        }
+        // 클릭 (드래그가 아닌 경우) — 즉시 Reaction 실행
+        PetManager.shared.react()
     }
 
     override func rightMouseDown(with event: NSEvent) {
