@@ -28,7 +28,7 @@ final class PokemonSelectorWindowController: NSObject, NSWindowDelegate {
         panel = nil
 
         let newPanel = NSPanel(
-            contentRect: CGRect(x: 0, y: 0, width: 480, height: 600),
+            contentRect: CGRect(x: 0, y: 0, width: 480, height: 660),
             styleMask: [.titled, .closable],
             backing: .buffered,
             defer: false
@@ -223,22 +223,28 @@ struct PokemonSelectorView: View {
         .padding(.bottom, 8)
     }
 
-    // MARK: - 세대 탭
+    // MARK: - 세대 탭 (2줄: 1~5세대 / 6~9세대)
 
     private var genTabs: some View {
-        HStack(spacing: 4) {
-            genTabButton(gen: 1, count: 151)
-            genTabButton(gen: 2, count: 100)
-            genTabButton(gen: 3, count: 135)
-            genTabButton(gen: 4, count: 107)
-            genTabButton(gen: 5, count: 156)
+        VStack(spacing: 4) {
+            HStack(spacing: 4) {
+                ForEach(1...5, id: \.self) { gen in
+                    genTabButton(gen: gen)
+                }
+            }
+            HStack(spacing: 4) {
+                ForEach(6...9, id: \.self) { gen in
+                    genTabButton(gen: gen)
+                }
+            }
         }
         .padding(.horizontal, 16)
         .padding(.bottom, 8)
     }
 
-    private func genTabButton(gen: Int, count: Int) -> some View {
+    private func genTabButton(gen: Int) -> some View {
         let isActive = selectedGen == gen
+        let count = dataManager.pokemon(gen: gen).count
 
         return Button {
             selectedGen = gen

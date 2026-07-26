@@ -1,6 +1,7 @@
 # PokePet - macOS 데스크톱 펫
 
-Gen 1-5 포켓몬(649종) 스프라이트를 활용한 macOS 데스크톱 펫 앱.
+Gen 1-9 포켓몬(1025종) 스프라이트를 활용한 macOS 데스크톱 펫 앱.
+스프라이트가 없는 종은 선택기에서 N/A로 표시 (967종 사용 가능).
 PMDCollab SpriteCollab의 8방향 스프라이트 시트 사용.
 
 ## 빌드
@@ -14,7 +15,7 @@ PMDCollab SpriteCollab의 8방향 스프라이트 시트 사용.
 - Dock 숨김 (LSUIElement = true), 메뉴바 전용 앱
 - 게임 루프: DispatchSourceTimer (메인 큐)
 - @Observable (Observation 프레임워크) 사용 — ObservableObject 사용하지 않음
-- 스프라이트는 앱 번들에 포함 (~20-30MB)
+- 스프라이트는 앱 번들에 포함 (~90MB)
 - portrait 이미지: 포켓몬 선택기에서 초상화 표시용 (PMDCollab portrait/{ID}/Normal.png)
 
 ### PetManager (중앙 관리자 싱글턴)
@@ -24,7 +25,7 @@ PetManager.shared (@Observable)
   ├─ stateMachine      (@Observable) — 6개 상태 전환, 위치/방향
   ├─ gameLoop          — DispatchSourceTimer, 위치 업데이트
   ├─ settingsManager   (@Observable) — UserDefaults 저장/로드
-  └─ pokemonDataManager — 649종 포켓몬 목록
+  └─ pokemonDataManager — 1025종 포켓몬 목록
 ```
 SwiftUI/AppKit 어디서든 PetManager.shared로 모든 컴포넌트 접근.
 
@@ -71,7 +72,7 @@ poketmon/
 - plan.md — 전체 개발 계획 (Phase 1~8)
 - SCREEN_SPEC.md — 화면별 상세 스펙
 - SPRITE_INTEGRATION_PLAN.md — 스프라이트 구조/파싱/다운로드 상세
-- pokemon_data.json — 649종 포켓몬 데이터 (id, name, gen, types)
+- pokemon_data.json — 1025종 포켓몬 데이터 (id, name, nameKo, gen, types, isLegendary, isMythical)
 - ui-mockup.html — UI 목업 (브라우저에서 열어 확인, portrait 이미지 포함)
 
 ## 코딩 규칙

@@ -7446,5 +7446,4358 @@
     "nameKo": "게노세크트",
     "isLegendary": false,
     "isMythical": true
+  },
+  {
+    "id": 650,
+    "name": "Chespin",
+    "nameKo": "도치마론",
+    "gen": 6,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 651,
+    "name": "Quilladin",
+    "nameKo": "도치보구",
+    "gen": 6,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 652,
+    "name": "Chesnaught",
+    "nameKo": "브리가론",
+    "gen": 6,
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 653,
+    "name": "Fennekin",
+    "nameKo": "푸호꼬",
+    "gen": 6,
+    "types": [
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 654,
+    "name": "Braixen",
+    "nameKo": "테르나",
+    "gen": 6,
+    "types": [
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 655,
+    "name": "Delphox",
+    "nameKo": "마폭시",
+    "gen": 6,
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 656,
+    "name": "Froakie",
+    "nameKo": "개구마르",
+    "gen": 6,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 657,
+    "name": "Frogadier",
+    "nameKo": "개굴반장",
+    "gen": 6,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 658,
+    "name": "Greninja",
+    "nameKo": "개굴닌자",
+    "gen": 6,
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 659,
+    "name": "Bunnelby",
+    "nameKo": "파르빗",
+    "gen": 6,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 660,
+    "name": "Diggersby",
+    "nameKo": "파르토",
+    "gen": 6,
+    "types": [
+      "Normal",
+      "Ground"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 661,
+    "name": "Fletchling",
+    "nameKo": "화살꼬빈",
+    "gen": 6,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 662,
+    "name": "Fletchinder",
+    "nameKo": "불화살빈",
+    "gen": 6,
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 663,
+    "name": "Talonflame",
+    "nameKo": "파이어로",
+    "gen": 6,
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 664,
+    "name": "Scatterbug",
+    "nameKo": "분이벌레",
+    "gen": 6,
+    "types": [
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 665,
+    "name": "Spewpa",
+    "nameKo": "분떠도리",
+    "gen": 6,
+    "types": [
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 666,
+    "name": "Vivillon",
+    "nameKo": "비비용",
+    "gen": 6,
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 667,
+    "name": "Litleo",
+    "nameKo": "레오꼬",
+    "gen": 6,
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 668,
+    "name": "Pyroar",
+    "nameKo": "화염레오",
+    "gen": 6,
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 669,
+    "name": "Flabebe",
+    "nameKo": "플라베베",
+    "gen": 6,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 670,
+    "name": "Floette",
+    "nameKo": "플라엣테",
+    "gen": 6,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 671,
+    "name": "Florges",
+    "nameKo": "플라제스",
+    "gen": 6,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 672,
+    "name": "Skiddo",
+    "nameKo": "메이클",
+    "gen": 6,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 673,
+    "name": "Gogoat",
+    "nameKo": "고고트",
+    "gen": 6,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 674,
+    "name": "Pancham",
+    "nameKo": "판짱",
+    "gen": 6,
+    "types": [
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 675,
+    "name": "Pangoro",
+    "nameKo": "부란다",
+    "gen": 6,
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 676,
+    "name": "Furfrou",
+    "nameKo": "트리미앙",
+    "gen": 6,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 677,
+    "name": "Espurr",
+    "nameKo": "냐스퍼",
+    "gen": 6,
+    "types": [
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 678,
+    "name": "Meowstic",
+    "nameKo": "냐오닉스",
+    "gen": 6,
+    "types": [
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 679,
+    "name": "Honedge",
+    "nameKo": "단칼빙",
+    "gen": 6,
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 680,
+    "name": "Doublade",
+    "nameKo": "쌍검킬",
+    "gen": 6,
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 681,
+    "name": "Aegislash",
+    "nameKo": "킬가르도",
+    "gen": 6,
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 682,
+    "name": "Spritzee",
+    "nameKo": "슈쁘",
+    "gen": 6,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 683,
+    "name": "Aromatisse",
+    "nameKo": "프레프티르",
+    "gen": 6,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 684,
+    "name": "Swirlix",
+    "nameKo": "나룸퍼프",
+    "gen": 6,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 685,
+    "name": "Slurpuff",
+    "nameKo": "나루림",
+    "gen": 6,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 686,
+    "name": "Inkay",
+    "nameKo": "오케이징",
+    "gen": 6,
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 687,
+    "name": "Malamar",
+    "nameKo": "칼라마네로",
+    "gen": 6,
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 688,
+    "name": "Binacle",
+    "nameKo": "거북손손",
+    "gen": 6,
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 689,
+    "name": "Barbaracle",
+    "nameKo": "거북손데스",
+    "gen": 6,
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 690,
+    "name": "Skrelp",
+    "nameKo": "수레기",
+    "gen": 6,
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 691,
+    "name": "Dragalge",
+    "nameKo": "드래캄",
+    "gen": 6,
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 692,
+    "name": "Clauncher",
+    "nameKo": "완철포",
+    "gen": 6,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 693,
+    "name": "Clawitzer",
+    "nameKo": "블로스터",
+    "gen": 6,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 694,
+    "name": "Helioptile",
+    "nameKo": "목도리키텔",
+    "gen": 6,
+    "types": [
+      "Electric",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 695,
+    "name": "Heliolisk",
+    "nameKo": "일레도리자드",
+    "gen": 6,
+    "types": [
+      "Electric",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 696,
+    "name": "Tyrunt",
+    "nameKo": "티고라스",
+    "gen": 6,
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 697,
+    "name": "Tyrantrum",
+    "nameKo": "견고라스",
+    "gen": 6,
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 698,
+    "name": "Amaura",
+    "nameKo": "아마루스",
+    "gen": 6,
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 699,
+    "name": "Aurorus",
+    "nameKo": "아마루르가",
+    "gen": 6,
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 700,
+    "name": "Sylveon",
+    "nameKo": "님피아",
+    "gen": 6,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 701,
+    "name": "Hawlucha",
+    "nameKo": "루차불",
+    "gen": 6,
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 702,
+    "name": "Dedenne",
+    "nameKo": "데덴네",
+    "gen": 6,
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 703,
+    "name": "Carbink",
+    "nameKo": "멜리시",
+    "gen": 6,
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 704,
+    "name": "Goomy",
+    "nameKo": "미끄메라",
+    "gen": 6,
+    "types": [
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 705,
+    "name": "Sliggoo",
+    "nameKo": "미끄네일",
+    "gen": 6,
+    "types": [
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 706,
+    "name": "Goodra",
+    "nameKo": "미끄래곤",
+    "gen": 6,
+    "types": [
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 707,
+    "name": "Klefki",
+    "nameKo": "클레피",
+    "gen": 6,
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 708,
+    "name": "Phantump",
+    "nameKo": "나목령",
+    "gen": 6,
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 709,
+    "name": "Trevenant",
+    "nameKo": "대로트",
+    "gen": 6,
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 710,
+    "name": "Pumpkaboo",
+    "nameKo": "호바귀",
+    "gen": 6,
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 711,
+    "name": "Gourgeist",
+    "nameKo": "펌킨인",
+    "gen": 6,
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 712,
+    "name": "Bergmite",
+    "nameKo": "꽁어름",
+    "gen": 6,
+    "types": [
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 713,
+    "name": "Avalugg",
+    "nameKo": "크레베이스",
+    "gen": 6,
+    "types": [
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 714,
+    "name": "Noibat",
+    "nameKo": "음뱃",
+    "gen": 6,
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 715,
+    "name": "Noivern",
+    "nameKo": "음번",
+    "gen": 6,
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 716,
+    "name": "Xerneas",
+    "nameKo": "제르네아스",
+    "gen": 6,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 717,
+    "name": "Yveltal",
+    "nameKo": "이벨타르",
+    "gen": 6,
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 718,
+    "name": "Zygarde",
+    "nameKo": "지가르데",
+    "gen": 6,
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 719,
+    "name": "Diancie",
+    "nameKo": "디안시",
+    "gen": 6,
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": true
+  },
+  {
+    "id": 720,
+    "name": "Hoopa",
+    "nameKo": "후파",
+    "gen": 6,
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": true
+  },
+  {
+    "id": 721,
+    "name": "Volcanion",
+    "nameKo": "볼케니온",
+    "gen": 6,
+    "types": [
+      "Fire",
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": true
+  },
+  {
+    "id": 722,
+    "name": "Rowlet",
+    "nameKo": "나몰빼미",
+    "gen": 7,
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 723,
+    "name": "Dartrix",
+    "nameKo": "빼미스로우",
+    "gen": 7,
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 724,
+    "name": "Decidueye",
+    "nameKo": "모크나이퍼",
+    "gen": 7,
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 725,
+    "name": "Litten",
+    "nameKo": "냐오불",
+    "gen": 7,
+    "types": [
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 726,
+    "name": "Torracat",
+    "nameKo": "냐오히트",
+    "gen": 7,
+    "types": [
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 727,
+    "name": "Incineroar",
+    "nameKo": "어흥염",
+    "gen": 7,
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 728,
+    "name": "Popplio",
+    "nameKo": "누리공",
+    "gen": 7,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 729,
+    "name": "Brionne",
+    "nameKo": "키요공",
+    "gen": 7,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 730,
+    "name": "Primarina",
+    "nameKo": "누리레느",
+    "gen": 7,
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 731,
+    "name": "Pikipek",
+    "nameKo": "콕코구리",
+    "gen": 7,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 732,
+    "name": "Trumbeak",
+    "nameKo": "크라파",
+    "gen": 7,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 733,
+    "name": "Toucannon",
+    "nameKo": "왕큰부리",
+    "gen": 7,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 734,
+    "name": "Yungoos",
+    "nameKo": "영구스",
+    "gen": 7,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 735,
+    "name": "Gumshoos",
+    "nameKo": "형사구스",
+    "gen": 7,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 736,
+    "name": "Grubbin",
+    "nameKo": "턱지충이",
+    "gen": 7,
+    "types": [
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 737,
+    "name": "Charjabug",
+    "nameKo": "전지충이",
+    "gen": 7,
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 738,
+    "name": "Vikavolt",
+    "nameKo": "투구뿌논",
+    "gen": 7,
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 739,
+    "name": "Crabrawler",
+    "nameKo": "오기지게",
+    "gen": 7,
+    "types": [
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 740,
+    "name": "Crabominable",
+    "nameKo": "모단단게",
+    "gen": 7,
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 741,
+    "name": "Oricorio",
+    "nameKo": "춤추새",
+    "gen": 7,
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 742,
+    "name": "Cutiefly",
+    "nameKo": "에블리",
+    "gen": 7,
+    "types": [
+      "Bug",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 743,
+    "name": "Ribombee",
+    "nameKo": "에리본",
+    "gen": 7,
+    "types": [
+      "Bug",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 744,
+    "name": "Rockruff",
+    "nameKo": "암멍이",
+    "gen": 7,
+    "types": [
+      "Rock"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 745,
+    "name": "Lycanroc",
+    "nameKo": "루가루암",
+    "gen": 7,
+    "types": [
+      "Rock"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 746,
+    "name": "Wishiwashi",
+    "nameKo": "약어리",
+    "gen": 7,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 747,
+    "name": "Mareanie",
+    "nameKo": "시마사리",
+    "gen": 7,
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 748,
+    "name": "Toxapex",
+    "nameKo": "더시마사리",
+    "gen": 7,
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 749,
+    "name": "Mudbray",
+    "nameKo": "머드나기",
+    "gen": 7,
+    "types": [
+      "Ground"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 750,
+    "name": "Mudsdale",
+    "nameKo": "만마드",
+    "gen": 7,
+    "types": [
+      "Ground"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 751,
+    "name": "Dewpider",
+    "nameKo": "물거미",
+    "gen": 7,
+    "types": [
+      "Water",
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 752,
+    "name": "Araquanid",
+    "nameKo": "깨비물거미",
+    "gen": 7,
+    "types": [
+      "Water",
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 753,
+    "name": "Fomantis",
+    "nameKo": "짜랑랑",
+    "gen": 7,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 754,
+    "name": "Lurantis",
+    "nameKo": "라란티스",
+    "gen": 7,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 755,
+    "name": "Morelull",
+    "nameKo": "자마슈",
+    "gen": 7,
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 756,
+    "name": "Shiinotic",
+    "nameKo": "마셰이드",
+    "gen": 7,
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 757,
+    "name": "Salandit",
+    "nameKo": "야도뇽",
+    "gen": 7,
+    "types": [
+      "Poison",
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 758,
+    "name": "Salazzle",
+    "nameKo": "염뉴트",
+    "gen": 7,
+    "types": [
+      "Poison",
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 759,
+    "name": "Stufful",
+    "nameKo": "포곰곰",
+    "gen": 7,
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 760,
+    "name": "Bewear",
+    "nameKo": "이븐곰",
+    "gen": 7,
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 761,
+    "name": "Bounsweet",
+    "nameKo": "달콤아",
+    "gen": 7,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 762,
+    "name": "Steenee",
+    "nameKo": "달무리나",
+    "gen": 7,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 763,
+    "name": "Tsareena",
+    "nameKo": "달코퀸",
+    "gen": 7,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 764,
+    "name": "Comfey",
+    "nameKo": "큐아링",
+    "gen": 7,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 765,
+    "name": "Oranguru",
+    "nameKo": "하랑우탄",
+    "gen": 7,
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 766,
+    "name": "Passimian",
+    "nameKo": "내던숭이",
+    "gen": 7,
+    "types": [
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 767,
+    "name": "Wimpod",
+    "nameKo": "꼬시레",
+    "gen": 7,
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 768,
+    "name": "Golisopod",
+    "nameKo": "갑주무사",
+    "gen": 7,
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 769,
+    "name": "Sandygast",
+    "nameKo": "모래꿍",
+    "gen": 7,
+    "types": [
+      "Ghost",
+      "Ground"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 770,
+    "name": "Palossand",
+    "nameKo": "모래성이당",
+    "gen": 7,
+    "types": [
+      "Ghost",
+      "Ground"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 771,
+    "name": "Pyukumuku",
+    "nameKo": "해무기",
+    "gen": 7,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 772,
+    "name": "Type-null",
+    "nameKo": "타입:널",
+    "gen": 7,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 773,
+    "name": "Silvally",
+    "nameKo": "실버디",
+    "gen": 7,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 774,
+    "name": "Minior",
+    "nameKo": "메테노",
+    "gen": 7,
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 775,
+    "name": "Komala",
+    "nameKo": "자말라",
+    "gen": 7,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 776,
+    "name": "Turtonator",
+    "nameKo": "폭거북스",
+    "gen": 7,
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 777,
+    "name": "Togedemaru",
+    "nameKo": "토게데마루",
+    "gen": 7,
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 778,
+    "name": "Mimikyu",
+    "nameKo": "따라큐",
+    "gen": 7,
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 779,
+    "name": "Bruxish",
+    "nameKo": "치갈기",
+    "gen": 7,
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 780,
+    "name": "Drampa",
+    "nameKo": "할비롱",
+    "gen": 7,
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 781,
+    "name": "Dhelmise",
+    "nameKo": "타타륜",
+    "gen": 7,
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 782,
+    "name": "Jangmo-o",
+    "nameKo": "짜랑꼬",
+    "gen": 7,
+    "types": [
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 783,
+    "name": "Hakamo-o",
+    "nameKo": "짜랑고우",
+    "gen": 7,
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 784,
+    "name": "Kommo-o",
+    "nameKo": "짜랑고우거",
+    "gen": 7,
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 785,
+    "name": "Tapu-koko",
+    "nameKo": "카푸꼬꼬꼭",
+    "gen": 7,
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 786,
+    "name": "Tapu-lele",
+    "nameKo": "카푸나비나",
+    "gen": 7,
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 787,
+    "name": "Tapu-bulu",
+    "nameKo": "카푸브루루",
+    "gen": 7,
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 788,
+    "name": "Tapu-fini",
+    "nameKo": "카푸느지느",
+    "gen": 7,
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 789,
+    "name": "Cosmog",
+    "nameKo": "코스모그",
+    "gen": 7,
+    "types": [
+      "Psychic"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 790,
+    "name": "Cosmoem",
+    "nameKo": "코스모움",
+    "gen": 7,
+    "types": [
+      "Psychic"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 791,
+    "name": "Solgaleo",
+    "nameKo": "솔가레오",
+    "gen": 7,
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 792,
+    "name": "Lunala",
+    "nameKo": "루나아라",
+    "gen": 7,
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 793,
+    "name": "Nihilego",
+    "nameKo": "텅비드",
+    "gen": 7,
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 794,
+    "name": "Buzzwole",
+    "nameKo": "매시붕",
+    "gen": 7,
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 795,
+    "name": "Pheromosa",
+    "nameKo": "페로코체",
+    "gen": 7,
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 796,
+    "name": "Xurkitree",
+    "nameKo": "전수목",
+    "gen": 7,
+    "types": [
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 797,
+    "name": "Celesteela",
+    "nameKo": "철화구야",
+    "gen": 7,
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 798,
+    "name": "Kartana",
+    "nameKo": "종이신도",
+    "gen": 7,
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 799,
+    "name": "Guzzlord",
+    "nameKo": "악식킹",
+    "gen": 7,
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 800,
+    "name": "Necrozma",
+    "nameKo": "네크로즈마",
+    "gen": 7,
+    "types": [
+      "Psychic"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 801,
+    "name": "Magearna",
+    "nameKo": "마기아나",
+    "gen": 7,
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": true
+  },
+  {
+    "id": 802,
+    "name": "Marshadow",
+    "nameKo": "마샤도",
+    "gen": 7,
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": true
+  },
+  {
+    "id": 803,
+    "name": "Poipole",
+    "nameKo": "베베놈",
+    "gen": 7,
+    "types": [
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 804,
+    "name": "Naganadel",
+    "nameKo": "아고용",
+    "gen": 7,
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 805,
+    "name": "Stakataka",
+    "nameKo": "차곡차곡",
+    "gen": 7,
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 806,
+    "name": "Blacephalon",
+    "nameKo": "두파팡",
+    "gen": 7,
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 807,
+    "name": "Zeraora",
+    "nameKo": "제라오라",
+    "gen": 7,
+    "types": [
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": true
+  },
+  {
+    "id": 808,
+    "name": "Meltan",
+    "nameKo": "멜탄",
+    "gen": 7,
+    "types": [
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": true
+  },
+  {
+    "id": 809,
+    "name": "Melmetal",
+    "nameKo": "멜메탈",
+    "gen": 7,
+    "types": [
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": true
+  },
+  {
+    "id": 810,
+    "name": "Grookey",
+    "nameKo": "흥나숭",
+    "gen": 8,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 811,
+    "name": "Thwackey",
+    "nameKo": "채키몽",
+    "gen": 8,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 812,
+    "name": "Rillaboom",
+    "nameKo": "고릴타",
+    "gen": 8,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 813,
+    "name": "Scorbunny",
+    "nameKo": "염버니",
+    "gen": 8,
+    "types": [
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 814,
+    "name": "Raboot",
+    "nameKo": "래비풋",
+    "gen": 8,
+    "types": [
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 815,
+    "name": "Cinderace",
+    "nameKo": "에이스번",
+    "gen": 8,
+    "types": [
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 816,
+    "name": "Sobble",
+    "nameKo": "울머기",
+    "gen": 8,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 817,
+    "name": "Drizzile",
+    "nameKo": "누겔레온",
+    "gen": 8,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 818,
+    "name": "Inteleon",
+    "nameKo": "인텔리레온",
+    "gen": 8,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 819,
+    "name": "Skwovet",
+    "nameKo": "탐리스",
+    "gen": 8,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 820,
+    "name": "Greedent",
+    "nameKo": "요씽리스",
+    "gen": 8,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 821,
+    "name": "Rookidee",
+    "nameKo": "파라꼬",
+    "gen": 8,
+    "types": [
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 822,
+    "name": "Corvisquire",
+    "nameKo": "파크로우",
+    "gen": 8,
+    "types": [
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 823,
+    "name": "Corviknight",
+    "nameKo": "아머까오",
+    "gen": 8,
+    "types": [
+      "Flying",
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 824,
+    "name": "Blipbug",
+    "nameKo": "두루지벌레",
+    "gen": 8,
+    "types": [
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 825,
+    "name": "Dottler",
+    "nameKo": "레돔벌레",
+    "gen": 8,
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 826,
+    "name": "Orbeetle",
+    "nameKo": "이올브",
+    "gen": 8,
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 827,
+    "name": "Nickit",
+    "nameKo": "훔처우",
+    "gen": 8,
+    "types": [
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 828,
+    "name": "Thievul",
+    "nameKo": "폭슬라이",
+    "gen": 8,
+    "types": [
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 829,
+    "name": "Gossifleur",
+    "nameKo": "꼬모카",
+    "gen": 8,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 830,
+    "name": "Eldegoss",
+    "nameKo": "백솜모카",
+    "gen": 8,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 831,
+    "name": "Wooloo",
+    "nameKo": "우르",
+    "gen": 8,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 832,
+    "name": "Dubwool",
+    "nameKo": "배우르",
+    "gen": 8,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 833,
+    "name": "Chewtle",
+    "nameKo": "깨물부기",
+    "gen": 8,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 834,
+    "name": "Drednaw",
+    "nameKo": "갈가부기",
+    "gen": 8,
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 835,
+    "name": "Yamper",
+    "nameKo": "멍파치",
+    "gen": 8,
+    "types": [
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 836,
+    "name": "Boltund",
+    "nameKo": "펄스멍",
+    "gen": 8,
+    "types": [
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 837,
+    "name": "Rolycoly",
+    "nameKo": "탄동",
+    "gen": 8,
+    "types": [
+      "Rock"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 838,
+    "name": "Carkol",
+    "nameKo": "탄차곤",
+    "gen": 8,
+    "types": [
+      "Rock",
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 839,
+    "name": "Coalossal",
+    "nameKo": "석탄산",
+    "gen": 8,
+    "types": [
+      "Rock",
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 840,
+    "name": "Applin",
+    "nameKo": "과사삭벌레",
+    "gen": 8,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 841,
+    "name": "Flapple",
+    "nameKo": "애프룡",
+    "gen": 8,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 842,
+    "name": "Appletun",
+    "nameKo": "단지래플",
+    "gen": 8,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 843,
+    "name": "Silicobra",
+    "nameKo": "모래뱀",
+    "gen": 8,
+    "types": [
+      "Ground"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 844,
+    "name": "Sandaconda",
+    "nameKo": "사다이사",
+    "gen": 8,
+    "types": [
+      "Ground"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 845,
+    "name": "Cramorant",
+    "nameKo": "윽우지",
+    "gen": 8,
+    "types": [
+      "Flying",
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 846,
+    "name": "Arrokuda",
+    "nameKo": "찌로꼬치",
+    "gen": 8,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 847,
+    "name": "Barraskewda",
+    "nameKo": "꼬치조",
+    "gen": 8,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 848,
+    "name": "Toxel",
+    "nameKo": "일레즌",
+    "gen": 8,
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 849,
+    "name": "Toxtricity",
+    "nameKo": "스트린더",
+    "gen": 8,
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 850,
+    "name": "Sizzlipede",
+    "nameKo": "태우지네",
+    "gen": 8,
+    "types": [
+      "Fire",
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 851,
+    "name": "Centiskorch",
+    "nameKo": "다태우지네",
+    "gen": 8,
+    "types": [
+      "Fire",
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 852,
+    "name": "Clobbopus",
+    "nameKo": "때때무노",
+    "gen": 8,
+    "types": [
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 853,
+    "name": "Grapploct",
+    "nameKo": "케오퍼스",
+    "gen": 8,
+    "types": [
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 854,
+    "name": "Sinistea",
+    "nameKo": "데인차",
+    "gen": 8,
+    "types": [
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 855,
+    "name": "Polteageist",
+    "nameKo": "포트데스",
+    "gen": 8,
+    "types": [
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 856,
+    "name": "Hatenna",
+    "nameKo": "몸지브림",
+    "gen": 8,
+    "types": [
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 857,
+    "name": "Hattrem",
+    "nameKo": "손지브림",
+    "gen": 8,
+    "types": [
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 858,
+    "name": "Hatterene",
+    "nameKo": "브리무음",
+    "gen": 8,
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 859,
+    "name": "Impidimp",
+    "nameKo": "메롱꿍",
+    "gen": 8,
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 860,
+    "name": "Morgrem",
+    "nameKo": "쏘겨모",
+    "gen": 8,
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 861,
+    "name": "Grimmsnarl",
+    "nameKo": "오롱털",
+    "gen": 8,
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 862,
+    "name": "Obstagoon",
+    "nameKo": "가로막구리",
+    "gen": 8,
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 863,
+    "name": "Perrserker",
+    "nameKo": "나이킹",
+    "gen": 8,
+    "types": [
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 864,
+    "name": "Cursola",
+    "nameKo": "산호르곤",
+    "gen": 8,
+    "types": [
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 865,
+    "name": "Sirfetchd",
+    "nameKo": "창파나이트",
+    "gen": 8,
+    "types": [
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 866,
+    "name": "Mr-rime",
+    "nameKo": "마임꽁꽁",
+    "gen": 8,
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 867,
+    "name": "Runerigus",
+    "nameKo": "데스판",
+    "gen": 8,
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 868,
+    "name": "Milcery",
+    "nameKo": "마빌크",
+    "gen": 8,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 869,
+    "name": "Alcremie",
+    "nameKo": "마휘핑",
+    "gen": 8,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 870,
+    "name": "Falinks",
+    "nameKo": "대여르",
+    "gen": 8,
+    "types": [
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 871,
+    "name": "Pincurchin",
+    "nameKo": "찌르성게",
+    "gen": 8,
+    "types": [
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 872,
+    "name": "Snom",
+    "nameKo": "누니머기",
+    "gen": 8,
+    "types": [
+      "Ice",
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 873,
+    "name": "Frosmoth",
+    "nameKo": "모스노우",
+    "gen": 8,
+    "types": [
+      "Ice",
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 874,
+    "name": "Stonjourner",
+    "nameKo": "돌헨진",
+    "gen": 8,
+    "types": [
+      "Rock"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 875,
+    "name": "Eiscue",
+    "nameKo": "빙큐보",
+    "gen": 8,
+    "types": [
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 876,
+    "name": "Indeedee",
+    "nameKo": "에써르",
+    "gen": 8,
+    "types": [
+      "Psychic",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 877,
+    "name": "Morpeko",
+    "nameKo": "모르페코",
+    "gen": 8,
+    "types": [
+      "Electric",
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 878,
+    "name": "Cufant",
+    "nameKo": "끼리동",
+    "gen": 8,
+    "types": [
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 879,
+    "name": "Copperajah",
+    "nameKo": "대왕끼리동",
+    "gen": 8,
+    "types": [
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 880,
+    "name": "Dracozolt",
+    "nameKo": "파치래곤",
+    "gen": 8,
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 881,
+    "name": "Arctozolt",
+    "nameKo": "파치르돈",
+    "gen": 8,
+    "types": [
+      "Electric",
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 882,
+    "name": "Dracovish",
+    "nameKo": "어래곤",
+    "gen": 8,
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 883,
+    "name": "Arctovish",
+    "nameKo": "어치르돈",
+    "gen": 8,
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 884,
+    "name": "Duraludon",
+    "nameKo": "두랄루돈",
+    "gen": 8,
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 885,
+    "name": "Dreepy",
+    "nameKo": "드라꼰",
+    "gen": 8,
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 886,
+    "name": "Drakloak",
+    "nameKo": "드래런치",
+    "gen": 8,
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 887,
+    "name": "Dragapult",
+    "nameKo": "드래펄트",
+    "gen": 8,
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 888,
+    "name": "Zacian",
+    "nameKo": "자시안",
+    "gen": 8,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 889,
+    "name": "Zamazenta",
+    "nameKo": "자마젠타",
+    "gen": 8,
+    "types": [
+      "Fighting"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 890,
+    "name": "Eternatus",
+    "nameKo": "무한다이노",
+    "gen": 8,
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 891,
+    "name": "Kubfu",
+    "nameKo": "치고마",
+    "gen": 8,
+    "types": [
+      "Fighting"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 892,
+    "name": "Urshifu",
+    "nameKo": "우라오스",
+    "gen": 8,
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 893,
+    "name": "Zarude",
+    "nameKo": "자루도",
+    "gen": 8,
+    "types": [
+      "Dark",
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": true
+  },
+  {
+    "id": 894,
+    "name": "Regieleki",
+    "nameKo": "레지에레키",
+    "gen": 8,
+    "types": [
+      "Electric"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 895,
+    "name": "Regidrago",
+    "nameKo": "레지드래고",
+    "gen": 8,
+    "types": [
+      "Dragon"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 896,
+    "name": "Glastrier",
+    "nameKo": "블리자포스",
+    "gen": 8,
+    "types": [
+      "Ice"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 897,
+    "name": "Spectrier",
+    "nameKo": "레이스포스",
+    "gen": 8,
+    "types": [
+      "Ghost"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 898,
+    "name": "Calyrex",
+    "nameKo": "버드렉스",
+    "gen": 8,
+    "types": [
+      "Psychic",
+      "Grass"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 899,
+    "name": "Wyrdeer",
+    "nameKo": "신비록",
+    "gen": 8,
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 900,
+    "name": "Kleavor",
+    "nameKo": "사마자르",
+    "gen": 8,
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 901,
+    "name": "Ursaluna",
+    "nameKo": "다투곰",
+    "gen": 8,
+    "types": [
+      "Ground",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 902,
+    "name": "Basculegion",
+    "nameKo": "대쓰여너",
+    "gen": 8,
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 903,
+    "name": "Sneasler",
+    "nameKo": "포푸니크",
+    "gen": 8,
+    "types": [
+      "Fighting",
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 904,
+    "name": "Overqwil",
+    "nameKo": "장침바루",
+    "gen": 8,
+    "types": [
+      "Dark",
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 905,
+    "name": "Enamorus",
+    "nameKo": "러브로스",
+    "gen": 8,
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 906,
+    "name": "Sprigatito",
+    "nameKo": "나오하",
+    "gen": 9,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 907,
+    "name": "Floragato",
+    "nameKo": "나로테",
+    "gen": 9,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 908,
+    "name": "Meowscarada",
+    "nameKo": "마스카나",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 909,
+    "name": "Fuecoco",
+    "nameKo": "뜨아거",
+    "gen": 9,
+    "types": [
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 910,
+    "name": "Crocalor",
+    "nameKo": "악뜨거",
+    "gen": 9,
+    "types": [
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 911,
+    "name": "Skeledirge",
+    "nameKo": "라우드본",
+    "gen": 9,
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 912,
+    "name": "Quaxly",
+    "nameKo": "꾸왁스",
+    "gen": 9,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 913,
+    "name": "Quaxwell",
+    "nameKo": "아꾸왁",
+    "gen": 9,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 914,
+    "name": "Quaquaval",
+    "nameKo": "웨이니발",
+    "gen": 9,
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 915,
+    "name": "Lechonk",
+    "nameKo": "맛보돈",
+    "gen": 9,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 916,
+    "name": "Oinkologne",
+    "nameKo": "퍼퓨돈",
+    "gen": 9,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 917,
+    "name": "Tarountula",
+    "nameKo": "타랜툴라",
+    "gen": 9,
+    "types": [
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 918,
+    "name": "Spidops",
+    "nameKo": "트래피더",
+    "gen": 9,
+    "types": [
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 919,
+    "name": "Nymble",
+    "nameKo": "콩알뚜기",
+    "gen": 9,
+    "types": [
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 920,
+    "name": "Lokix",
+    "nameKo": "엑스레그",
+    "gen": 9,
+    "types": [
+      "Bug",
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 921,
+    "name": "Pawmi",
+    "nameKo": "빠모",
+    "gen": 9,
+    "types": [
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 922,
+    "name": "Pawmo",
+    "nameKo": "빠모트",
+    "gen": 9,
+    "types": [
+      "Electric",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 923,
+    "name": "Pawmot",
+    "nameKo": "빠르모트",
+    "gen": 9,
+    "types": [
+      "Electric",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 924,
+    "name": "Tandemaus",
+    "nameKo": "두리쥐",
+    "gen": 9,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 925,
+    "name": "Maushold",
+    "nameKo": "파밀리쥐",
+    "gen": 9,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 926,
+    "name": "Fidough",
+    "nameKo": "쫀도기",
+    "gen": 9,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 927,
+    "name": "Dachsbun",
+    "nameKo": "바우첼",
+    "gen": 9,
+    "types": [
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 928,
+    "name": "Smoliv",
+    "nameKo": "미니브",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 929,
+    "name": "Dolliv",
+    "nameKo": "올리뇨",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 930,
+    "name": "Arboliva",
+    "nameKo": "올리르바",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 931,
+    "name": "Squawkabilly",
+    "nameKo": "시비꼬",
+    "gen": 9,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 932,
+    "name": "Nacli",
+    "nameKo": "베베솔트",
+    "gen": 9,
+    "types": [
+      "Rock"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 933,
+    "name": "Naclstack",
+    "nameKo": "스태솔트",
+    "gen": 9,
+    "types": [
+      "Rock"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 934,
+    "name": "Garganacl",
+    "nameKo": "콜로솔트",
+    "gen": 9,
+    "types": [
+      "Rock"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 935,
+    "name": "Charcadet",
+    "nameKo": "카르본",
+    "gen": 9,
+    "types": [
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 936,
+    "name": "Armarouge",
+    "nameKo": "카디나르마",
+    "gen": 9,
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 937,
+    "name": "Ceruledge",
+    "nameKo": "파라블레이즈",
+    "gen": 9,
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 938,
+    "name": "Tadbulb",
+    "nameKo": "빈나두",
+    "gen": 9,
+    "types": [
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 939,
+    "name": "Bellibolt",
+    "nameKo": "찌리배리",
+    "gen": 9,
+    "types": [
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 940,
+    "name": "Wattrel",
+    "nameKo": "찌리비",
+    "gen": 9,
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 941,
+    "name": "Kilowattrel",
+    "nameKo": "찌리비크",
+    "gen": 9,
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 942,
+    "name": "Maschiff",
+    "nameKo": "오라티프",
+    "gen": 9,
+    "types": [
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 943,
+    "name": "Mabosstiff",
+    "nameKo": "마피티프",
+    "gen": 9,
+    "types": [
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 944,
+    "name": "Shroodle",
+    "nameKo": "땃쭈르",
+    "gen": 9,
+    "types": [
+      "Poison",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 945,
+    "name": "Grafaiai",
+    "nameKo": "태깅구르",
+    "gen": 9,
+    "types": [
+      "Poison",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 946,
+    "name": "Bramblin",
+    "nameKo": "그푸리",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 947,
+    "name": "Brambleghast",
+    "nameKo": "공푸리",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 948,
+    "name": "Toedscool",
+    "nameKo": "들눈해",
+    "gen": 9,
+    "types": [
+      "Ground",
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 949,
+    "name": "Toedscruel",
+    "nameKo": "육파리",
+    "gen": 9,
+    "types": [
+      "Ground",
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 950,
+    "name": "Klawf",
+    "nameKo": "절벼게",
+    "gen": 9,
+    "types": [
+      "Rock"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 951,
+    "name": "Capsakid",
+    "nameKo": "캡싸이",
+    "gen": 9,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 952,
+    "name": "Scovillain",
+    "nameKo": "스코빌런",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 953,
+    "name": "Rellor",
+    "nameKo": "구르데",
+    "gen": 9,
+    "types": [
+      "Bug"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 954,
+    "name": "Rabsca",
+    "nameKo": "베라카스",
+    "gen": 9,
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 955,
+    "name": "Flittle",
+    "nameKo": "하느라기",
+    "gen": 9,
+    "types": [
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 956,
+    "name": "Espathra",
+    "nameKo": "클레스퍼트라",
+    "gen": 9,
+    "types": [
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 957,
+    "name": "Tinkatink",
+    "nameKo": "어리짱",
+    "gen": 9,
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 958,
+    "name": "Tinkatuff",
+    "nameKo": "벼리짱",
+    "gen": 9,
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 959,
+    "name": "Tinkaton",
+    "nameKo": "두드리짱",
+    "gen": 9,
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 960,
+    "name": "Wiglett",
+    "nameKo": "바다그다",
+    "gen": 9,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 961,
+    "name": "Wugtrio",
+    "nameKo": "바닥트리오",
+    "gen": 9,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 962,
+    "name": "Bombirdier",
+    "nameKo": "떨구새",
+    "gen": 9,
+    "types": [
+      "Flying",
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 963,
+    "name": "Finizen",
+    "nameKo": "맨돌핀",
+    "gen": 9,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 964,
+    "name": "Palafin",
+    "nameKo": "돌핀맨",
+    "gen": 9,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 965,
+    "name": "Varoom",
+    "nameKo": "부르롱",
+    "gen": 9,
+    "types": [
+      "Steel",
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 966,
+    "name": "Revavroom",
+    "nameKo": "부르르룸",
+    "gen": 9,
+    "types": [
+      "Steel",
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 967,
+    "name": "Cyclizar",
+    "nameKo": "모토마",
+    "gen": 9,
+    "types": [
+      "Dragon",
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 968,
+    "name": "Orthworm",
+    "nameKo": "꿈트렁",
+    "gen": 9,
+    "types": [
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 969,
+    "name": "Glimmet",
+    "nameKo": "초롱순",
+    "gen": 9,
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 970,
+    "name": "Glimmora",
+    "nameKo": "킬라플로르",
+    "gen": 9,
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 971,
+    "name": "Greavard",
+    "nameKo": "망망이",
+    "gen": 9,
+    "types": [
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 972,
+    "name": "Houndstone",
+    "nameKo": "묘두기",
+    "gen": 9,
+    "types": [
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 973,
+    "name": "Flamigo",
+    "nameKo": "꼬이밍고",
+    "gen": 9,
+    "types": [
+      "Flying",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 974,
+    "name": "Cetoddle",
+    "nameKo": "터벅고래",
+    "gen": 9,
+    "types": [
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 975,
+    "name": "Cetitan",
+    "nameKo": "우락고래",
+    "gen": 9,
+    "types": [
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 976,
+    "name": "Veluza",
+    "nameKo": "가비루사",
+    "gen": 9,
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 977,
+    "name": "Dondozo",
+    "nameKo": "어써러셔",
+    "gen": 9,
+    "types": [
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 978,
+    "name": "Tatsugiri",
+    "nameKo": "싸리용",
+    "gen": 9,
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 979,
+    "name": "Annihilape",
+    "nameKo": "저승갓숭",
+    "gen": 9,
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 980,
+    "name": "Clodsire",
+    "nameKo": "토오",
+    "gen": 9,
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 981,
+    "name": "Farigiraf",
+    "nameKo": "키키링",
+    "gen": 9,
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 982,
+    "name": "Dudunsparce",
+    "nameKo": "노고고치",
+    "gen": 9,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 983,
+    "name": "Kingambit",
+    "nameKo": "대도각참",
+    "gen": 9,
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 984,
+    "name": "Great-tusk",
+    "nameKo": "위대한엄니",
+    "gen": 9,
+    "types": [
+      "Ground",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 985,
+    "name": "Scream-tail",
+    "nameKo": "우렁찬꼬리",
+    "gen": 9,
+    "types": [
+      "Fairy",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 986,
+    "name": "Brute-bonnet",
+    "nameKo": "사나운버섯",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 987,
+    "name": "Flutter-mane",
+    "nameKo": "날개치는머리",
+    "gen": 9,
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 988,
+    "name": "Slither-wing",
+    "nameKo": "땅을기는날개",
+    "gen": 9,
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 989,
+    "name": "Sandy-shocks",
+    "nameKo": "모래털가죽",
+    "gen": 9,
+    "types": [
+      "Electric",
+      "Ground"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 990,
+    "name": "Iron-treads",
+    "nameKo": "무쇠바퀴",
+    "gen": 9,
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 991,
+    "name": "Iron-bundle",
+    "nameKo": "무쇠보따리",
+    "gen": 9,
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 992,
+    "name": "Iron-hands",
+    "nameKo": "무쇠손",
+    "gen": 9,
+    "types": [
+      "Fighting",
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 993,
+    "name": "Iron-jugulis",
+    "nameKo": "무쇠머리",
+    "gen": 9,
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 994,
+    "name": "Iron-moth",
+    "nameKo": "무쇠독나방",
+    "gen": 9,
+    "types": [
+      "Fire",
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 995,
+    "name": "Iron-thorns",
+    "nameKo": "무쇠가시",
+    "gen": 9,
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 996,
+    "name": "Frigibax",
+    "nameKo": "드니차",
+    "gen": 9,
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 997,
+    "name": "Arctibax",
+    "nameKo": "드니꽁",
+    "gen": 9,
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 998,
+    "name": "Baxcalibur",
+    "nameKo": "드닐레이브",
+    "gen": 9,
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 999,
+    "name": "Gimmighoul",
+    "nameKo": "모으령",
+    "gen": 9,
+    "types": [
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1000,
+    "name": "Gholdengo",
+    "nameKo": "타부자고",
+    "gen": 9,
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1001,
+    "name": "Wo-chien",
+    "nameKo": "총지엔",
+    "gen": 9,
+    "types": [
+      "Dark",
+      "Grass"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 1002,
+    "name": "Chien-pao",
+    "nameKo": "파오젠",
+    "gen": 9,
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 1003,
+    "name": "Ting-lu",
+    "nameKo": "딩루",
+    "gen": 9,
+    "types": [
+      "Dark",
+      "Ground"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 1004,
+    "name": "Chi-yu",
+    "nameKo": "위유이",
+    "gen": 9,
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 1005,
+    "name": "Roaring-moon",
+    "nameKo": "고동치는달",
+    "gen": 9,
+    "types": [
+      "Dragon",
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1006,
+    "name": "Iron-valiant",
+    "nameKo": "무쇠무인",
+    "gen": 9,
+    "types": [
+      "Fairy",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1007,
+    "name": "Koraidon",
+    "nameKo": "코라이돈",
+    "gen": 9,
+    "types": [
+      "Fighting",
+      "Dragon"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 1008,
+    "name": "Miraidon",
+    "nameKo": "미라이돈",
+    "gen": 9,
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 1009,
+    "name": "Walking-wake",
+    "nameKo": "굽이치는물결",
+    "gen": 9,
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1010,
+    "name": "Iron-leaves",
+    "nameKo": "무쇠잎새",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1011,
+    "name": "Dipplin",
+    "nameKo": "과미르",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1012,
+    "name": "Poltchageist",
+    "nameKo": "차데스",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1013,
+    "name": "Sinistcha",
+    "nameKo": "그우린차",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1014,
+    "name": "Okidogi",
+    "nameKo": "조타구",
+    "gen": 9,
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 1015,
+    "name": "Munkidori",
+    "nameKo": "이야후",
+    "gen": 9,
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 1016,
+    "name": "Fezandipiti",
+    "nameKo": "기로치",
+    "gen": 9,
+    "types": [
+      "Poison",
+      "Fairy"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 1017,
+    "name": "Ogerpon",
+    "nameKo": "오거폰",
+    "gen": 9,
+    "types": [
+      "Grass"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 1018,
+    "name": "Archaludon",
+    "nameKo": "브리두라스",
+    "gen": 9,
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1019,
+    "name": "Hydrapple",
+    "nameKo": "과미드라",
+    "gen": 9,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1020,
+    "name": "Gouging-fire",
+    "nameKo": "꿰뚫는화염",
+    "gen": 9,
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1021,
+    "name": "Raging-bolt",
+    "nameKo": "날뛰는우레",
+    "gen": 9,
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1022,
+    "name": "Iron-boulder",
+    "nameKo": "무쇠암석",
+    "gen": 9,
+    "types": [
+      "Rock",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1023,
+    "name": "Iron-crown",
+    "nameKo": "무쇠감투",
+    "gen": 9,
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false
+  },
+  {
+    "id": 1024,
+    "name": "Terapagos",
+    "nameKo": "테라파고스",
+    "gen": 9,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": true,
+    "isMythical": false
+  },
+  {
+    "id": 1025,
+    "name": "Pecharunt",
+    "nameKo": "복숭악동",
+    "gen": 9,
+    "types": [
+      "Poison",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": true
   }
 ]
