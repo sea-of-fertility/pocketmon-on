@@ -34,7 +34,7 @@ final class PokemonSelectorWindowController: NSObject, NSWindowDelegate {
             defer: false
         )
 
-        newPanel.title = "포켓몬 선택"
+        newPanel.title = String(localized: "Choose Pokémon")
         newPanel.hidesOnDeactivate = false
         newPanel.collectionBehavior = [.canJoinAllSpaces]
         newPanel.isMovableByWindowBackground = true
@@ -188,6 +188,7 @@ struct PokemonSelectorView: View {
         return base.filter {
             $0.name.lowercased().contains(q)
             || $0.nameKo.contains(q)
+            || $0.nameJa.contains(q)
             || String($0.id).contains(q)
             || $0.displayNumber.contains(q)
         }
@@ -212,7 +213,7 @@ struct PokemonSelectorView: View {
             Image(systemName: "magnifyingglass")
                 .foregroundStyle(.secondary)
                 .font(.system(size: 13))
-            TextField("이름 또는 번호로 검색...", text: $searchText)
+            TextField("Search by name or number...", text: $searchText)
                 .textFieldStyle(.plain)
                 .font(.system(size: 13))
         }
@@ -252,7 +253,7 @@ struct PokemonSelectorView: View {
             VStack(spacing: 2) {
                 Text("Gen \(gen)")
                     .font(.system(size: 12, weight: .medium))
-                Text("\(count)종")
+                Text("\(count) species")
                     .font(.system(size: 10))
                     .foregroundStyle(.secondary)
             }
@@ -288,13 +289,13 @@ struct PokemonSelectorView: View {
     private var categoryChipRow: some View {
         HStack(spacing: 6) {
             categoryChipButton(
-                label: "전설",
+                label: "Legendary",
                 color: Color(red: 0.85, green: 0.60, blue: 0.13),
                 isActive: showLegendary
             ) { showLegendary.toggle() }
 
             categoryChipButton(
-                label: "환상",
+                label: "Mythical",
                 color: Color(red: 0.72, green: 0.35, blue: 0.85),
                 isActive: showMythical
             ) { showMythical.toggle() }
@@ -302,7 +303,7 @@ struct PokemonSelectorView: View {
     }
 
     private func categoryChipButton(
-        label: String,
+        label: LocalizedStringKey,
         color: Color,
         isActive: Bool,
         action: @escaping () -> Void
@@ -341,7 +342,7 @@ struct PokemonSelectorView: View {
             if isActive { activeTypes.remove(type) }
             else { activeTypes.insert(type) }
         } label: {
-            Text(type)
+            Text(LocalizedStringKey(type))
                 .font(.system(size: 11))
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 4)
@@ -371,7 +372,7 @@ struct PokemonSelectorView: View {
                     Image(systemName: "magnifyingglass")
                         .font(.system(size: 24))
                         .foregroundStyle(.quaternary)
-                    Text("검색 결과 없음")
+                    Text("No results")
                         .font(.system(size: 13))
                         .foregroundStyle(.secondary)
                     Spacer()
@@ -405,12 +406,12 @@ struct PokemonSelectorView: View {
         HStack {
             Spacer()
 
-            Button("취소") {
+            Button("Cancel") {
                 PokemonSelectorWindowController.shared.close()
             }
             .keyboardShortcut(.cancelAction)
 
-            Button("선택 완료") {
+            Button("Select") {
                 let id = selectedPokemonID
                 PokemonSelectorWindowController.shared.close()
                 if let id {
@@ -460,7 +461,7 @@ private struct PokemonCellView: View {
             }
             .frame(width: 40, height: 40)
 
-            Text(pokemon.name)
+            Text(pokemon.localizedName)
                 .font(.system(size: 10))
                 .foregroundStyle(.secondary)
                 .lineLimit(1)

@@ -23,10 +23,10 @@ struct MenuBarDropdownView: View {
                     Circle()
                         .fill(stateColor(state))
                         .frame(width: 8, height: 8)
-                    Text("\(data?.name ?? "???") \(data?.displayNumber ?? "")")
+                    Text("\(data?.localizedName ?? "???") \(data?.displayNumber ?? "")")
                         .font(.system(size: 14, weight: .semibold))
                 }
-                Text("상태: \(state.rawValue)")
+                Text("Status: \(state.displayName)")
                     .font(.system(size: 12))
                     .foregroundStyle(.secondary)
             }
@@ -36,12 +36,12 @@ struct MenuBarDropdownView: View {
             Divider()
 
             // MARK: 내비게이션
-            DropdownMenuItem("포켓몬 변경...", icon: "arrow.triangle.2.circlepath") {
+            DropdownMenuItem("Change Pokémon...", icon: "arrow.triangle.2.circlepath") {
                 DispatchQueue.main.async {
                     PokemonSelectorWindowController.shared.open()
                 }
             }
-            DropdownMenuItem("설정...", icon: "gearshape") {
+            DropdownMenuItem("Settings...", icon: "gearshape") {
                 DispatchQueue.main.async {
                     SettingsWindowController.shared.open()
                 }
@@ -52,12 +52,12 @@ struct MenuBarDropdownView: View {
             // MARK: 상태 제어
             DropdownPauseItem()
 
-            DropdownMenuItem(isSleeping ? "깨우기" : "재우기",
+            DropdownMenuItem(isSleeping ? "Wake up" : "Put to sleep",
                              icon: isSleeping ? "sun.max.fill" : "moon.fill") {
                 if isSleeping { pet.wake() } else { pet.sleep() }
             }
 
-            DropdownMenuItem(state == .run ? "걷게 하기" : "뛰게 하기",
+            DropdownMenuItem(state == .run ? "Make it walk" : "Make it run",
                              icon: state == .run ? "tortoise.fill" : "hare.fill") {
                 if state == .run { pet.walk() } else { pet.run() }
             }
@@ -65,7 +65,7 @@ struct MenuBarDropdownView: View {
             Divider()
 
             // MARK: 종료
-            DropdownMenuItem("종료", icon: "xmark.circle", isDestructive: true) {
+            DropdownMenuItem("Quit", icon: "xmark.circle", isDestructive: true) {
                 NSApplication.shared.terminate(nil)
             }
         }
@@ -89,14 +89,14 @@ struct MenuBarDropdownView: View {
 // MARK: - 메뉴 아이템
 
 private struct DropdownMenuItem: View {
-    let title: String
+    let title: LocalizedStringKey
     let icon: String
     var isDestructive: Bool
     let action: () -> Void
 
     @State private var isHovered = false
 
-    init(_ title: String, icon: String, isDestructive: Bool = false,
+    init(_ title: LocalizedStringKey, icon: String, isDestructive: Bool = false,
          action: @escaping () -> Void) {
         self.title = title
         self.icon = icon
@@ -141,7 +141,7 @@ private struct DropdownPauseItem: View {
             HStack(spacing: 8) {
                 Image(systemName: "pause.fill")
                     .frame(width: 18)
-                Text("일시정지")
+                Text("Pause")
                 Spacer()
                 // 토글 스위치 인디케이터
                 Capsule()

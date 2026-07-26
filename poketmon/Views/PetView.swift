@@ -248,7 +248,7 @@ final class PetView: NSView {
 
         // 헤더 (비활성)
         let header = NSMenuItem(
-            title: "\(data?.name ?? "???") \(data?.displayNumber ?? "")",
+            title: "\(data?.localizedName ?? "???") \(data?.displayNumber ?? "")",
             action: nil, keyEquivalent: ""
         )
         header.isEnabled = false
@@ -257,13 +257,13 @@ final class PetView: NSView {
         menu.addItem(.separator())
 
         // 포켓몬 변경
-        let changeItem = NSMenuItem(title: "포켓몬 변경...",
+        let changeItem = NSMenuItem(title: String(localized: "Change Pokémon..."),
                                     action: #selector(menuChangePokemon), keyEquivalent: "")
         changeItem.target = self
         menu.addItem(changeItem)
 
         // 설정
-        let settingsItem = NSMenuItem(title: "설정...",
+        let settingsItem = NSMenuItem(title: String(localized: "Settings..."),
                                       action: #selector(menuOpenSettings), keyEquivalent: "")
         settingsItem.target = self
         menu.addItem(settingsItem)
@@ -271,14 +271,14 @@ final class PetView: NSView {
         menu.addItem(.separator())
 
         // 재우기 / 깨우기
-        let sleepItem = NSMenuItem(title: isSleeping ? "깨우기" : "재우기",
+        let sleepItem = NSMenuItem(title: isSleeping ? String(localized: "Wake up") : String(localized: "Put to sleep"),
                                    action: #selector(menuToggleSleep), keyEquivalent: "")
         sleepItem.target = self
         menu.addItem(sleepItem)
 
         // 뛰게 하기 / 걷게 하기
         let isRunning = pet.stateMachine.currentState == .run
-        let runItem = NSMenuItem(title: isRunning ? "걷게 하기" : "뛰게 하기",
+        let runItem = NSMenuItem(title: isRunning ? String(localized: "Make it walk") : String(localized: "Make it run"),
                                  action: #selector(menuToggleRun), keyEquivalent: "")
         runItem.target = self
         menu.addItem(runItem)
@@ -286,7 +286,7 @@ final class PetView: NSView {
         menu.addItem(.separator())
 
         // 종료
-        let quitItem = NSMenuItem(title: "종료",
+        let quitItem = NSMenuItem(title: String(localized: "Quit"),
                                   action: #selector(menuQuit), keyEquivalent: "")
         quitItem.target = self
         menu.addItem(quitItem)

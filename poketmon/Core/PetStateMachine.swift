@@ -12,12 +12,19 @@ import Observation
 // MARK: - 포켓몬 상태
 
 enum PetState: String {
-    case idle     = "대기 중"
-    case walk     = "걷는 중"
-    case run      = "뛰는 중"
-    case sleep    = "자는 중"
-    case reaction = "반응 중"
-    case dragged  = "드래그 중"
+    case idle, walk, run, sleep, reaction, dragged
+
+    /// 상태 표시 텍스트 (시스템 언어 반영)
+    var displayName: String {
+        switch self {
+        case .idle: String(localized: "Idle")
+        case .walk: String(localized: "Walking")
+        case .run: String(localized: "Running")
+        case .sleep: String(localized: "Sleeping")
+        case .reaction: String(localized: "Reacting")
+        case .dragged: String(localized: "Dragging")
+        }
+    }
 }
 
 // MARK: - 상태 머신

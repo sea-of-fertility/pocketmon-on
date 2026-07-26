@@ -35,7 +35,7 @@ final class SettingsWindowController: NSObject, NSWindowDelegate {
             defer: false
         )
 
-        newPanel.title = "설정"
+        newPanel.title = String(localized: "Settings")
         newPanel.hidesOnDeactivate = false
         newPanel.collectionBehavior = [.canJoinAllSpaces]
         newPanel.isMovableByWindowBackground = true
@@ -105,11 +105,11 @@ struct SettingsView: View {
 
     @ViewBuilder
     private func displaySection(_ settings: SettingsManager) -> some View {
-        SettingsSectionHeader(title: "표시")
+        SettingsSectionHeader(title: "Display")
 
         // 크기
         SettingsSliderRow(
-            label: "크기",
+            label: "Size",
             value: Binding(
                 get: { settings.spriteScale },
                 set: { settings.spriteScale = $0 }
@@ -123,21 +123,21 @@ struct SettingsView: View {
 
         // 투명도
         SettingsSliderRow(
-            label: "투명도",
+            label: "Opacity",
             value: Binding(
                 get: { settings.opacity },
                 set: { settings.opacity = $0 }
             ),
             range: 30...100,
             step: 1,
-            minLabel: "투명",
-            maxLabel: "불투명",
+            minLabel: "Clear",
+            maxLabel: "Opaque",
             valueLabel: "\(Int(settings.opacity))%"
         )
 
         // 표시 위치
         HStack {
-            Text("표시 위치")
+            Text("Window level")
                 .font(.system(size: 13))
                 .frame(width: 70, alignment: .leading)
 
@@ -155,7 +155,7 @@ struct SettingsView: View {
 
         // 이동 범위
         HStack {
-            Text("이동 범위")
+            Text("Movement area")
                 .font(.system(size: 13))
                 .frame(width: 70, alignment: .leading)
 
@@ -163,7 +163,7 @@ struct SettingsView: View {
                 get: { settings.restrictedMonitorName ?? "" },
                 set: { settings.restrictedMonitorName = $0.isEmpty ? nil : $0 }
             )) {
-                Text("모든 모니터").tag("")
+                Text("All monitors").tag("")
                 ForEach(settings.availableMonitors, id: \.name) { monitor in
                     Text(monitorLabel(monitor)).tag(monitor.name)
                 }
@@ -177,45 +177,45 @@ struct SettingsView: View {
 
     @ViewBuilder
     private func behaviorSection(_ settings: SettingsManager) -> some View {
-        SettingsSectionHeader(title: "행동")
+        SettingsSectionHeader(title: "Behavior")
 
         // 이동 속도
         SettingsStepSliderRow(
-            label: "이동 속도",
+            label: "Speed",
             value: Binding(
                 get: { settings.movementSpeed },
                 set: { settings.movementSpeed = $0 }
             ),
             range: 1...5,
-            minLabel: "느림",
-            maxLabel: "빠름",
+            minLabel: "Slow",
+            maxLabel: "Fast",
             valueLabel: settings.movementSpeedLabel
         )
 
         // 활동 빈도
         SettingsStepSliderRow(
-            label: "활동 빈도",
+            label: "Activity",
             value: Binding(
                 get: { settings.activityFrequency },
                 set: { settings.activityFrequency = $0 }
             ),
             range: 1...5,
-            minLabel: "조용함",
-            maxLabel: "활발함",
+            minLabel: "Calm",
+            maxLabel: "Active",
             valueLabel: settings.activityFrequencyLabel
         )
 
         // 수면까지
         SettingsStepSliderRow(
-            label: "수면까지",
+            label: "Sleep after",
             value: Binding(
                 get: { settings.sleepTimeout },
                 set: { settings.sleepTimeout = $0 }
             ),
             range: 1...10,
-            minLabel: "1분",
-            maxLabel: "10분",
-            valueLabel: "\(settings.sleepTimeout)분"
+            minLabel: "1 min",
+            maxLabel: "10 min",
+            valueLabel: String(localized: "\(settings.sleepTimeout) min")
         )
     }
 
@@ -223,9 +223,9 @@ struct SettingsView: View {
 
     @ViewBuilder
     private func systemSection(_ settings: SettingsManager) -> some View {
-        SettingsSectionHeader(title: "시스템")
+        SettingsSectionHeader(title: "System")
 
-        Toggle("로그인 시 자동 실행", isOn: Binding(
+        Toggle("Launch at login", isOn: Binding(
             get: { settings.autoLaunch },
             set: { settings.autoLaunch = $0 }
         ))
@@ -240,16 +240,16 @@ struct SettingsView: View {
         guard let primaryFrame = geo.screenFrames.first else { return monitor.name }
 
         if monitor.frame == primaryFrame {
-            return "\(monitor.name) (주 모니터)"
+            return String(localized: "\(monitor.name) (Primary)")
         }
         if monitor.frame.midX < primaryFrame.minX {
-            return "\(monitor.name) (왼쪽)"
+            return String(localized: "\(monitor.name) (Left)")
         } else if monitor.frame.midX > primaryFrame.maxX {
-            return "\(monitor.name) (오른쪽)"
+            return String(localized: "\(monitor.name) (Right)")
         } else if monitor.frame.midY > primaryFrame.maxY {
-            return "\(monitor.name) (위)"
+            return String(localized: "\(monitor.name) (Above)")
         } else {
-            return "\(monitor.name) (아래)"
+            return String(localized: "\(monitor.name) (Below)")
         }
     }
 
@@ -257,13 +257,13 @@ struct SettingsView: View {
 
     private func footerButtons(_ settings: SettingsManager) -> some View {
         HStack {
-            Button("기본값 복원") {
+            Button("Restore Defaults") {
                 settings.resetToDefaults()
             }
 
             Spacer()
 
-            Button("닫기") {
+            Button("Close") {
                 SettingsWindowController.shared.close()
             }
             .keyboardShortcut(.cancelAction)
@@ -276,7 +276,7 @@ struct SettingsView: View {
 // MARK: - 섹션 헤더
 
 private struct SettingsSectionHeader: View {
-    let title: String
+    let title: LocalizedStringKey
 
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
@@ -291,12 +291,12 @@ private struct SettingsSectionHeader: View {
 // MARK: - 슬라이더 행 (연속 값)
 
 private struct SettingsSliderRow: View {
-    let label: String
+    let label: LocalizedStringKey
     @Binding var value: Double
     let range: ClosedRange<Double>
     let step: Double
-    let minLabel: String
-    let maxLabel: String
+    let minLabel: LocalizedStringKey
+    let maxLabel: LocalizedStringKey
     let valueLabel: String
 
     var body: some View {
@@ -328,11 +328,11 @@ private struct SettingsSliderRow: View {
 // MARK: - 스텝 슬라이더 행 (정수 값)
 
 private struct SettingsStepSliderRow: View {
-    let label: String
+    let label: LocalizedStringKey
     @Binding var value: Int
     let range: ClosedRange<Int>
-    let minLabel: String
-    let maxLabel: String
+    let minLabel: LocalizedStringKey
+    let maxLabel: LocalizedStringKey
     let valueLabel: String
 
     var body: some View {

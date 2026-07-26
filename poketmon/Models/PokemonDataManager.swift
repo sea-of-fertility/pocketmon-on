@@ -10,14 +10,29 @@ import Foundation
 
 // MARK: - 데이터 모델
 
+/// 앱 표시 언어 (번들 로컬라이제이션 해석 결과 — ko/ja 외에는 en 폴백)
+enum AppLanguage {
+    static let code: String = Bundle.main.preferredLocalizations.first ?? "en"
+}
+
 struct PokemonData: Codable, Identifiable {
     let id: Int
     let name: String
     let nameKo: String
+    let nameJa: String
     let gen: Int
     let types: [String]
     let isLegendary: Bool
     let isMythical: Bool
+
+    /// 시스템 언어에 맞는 표시 이름 (한국어/일본어 외에는 영어)
+    var localizedName: String {
+        switch AppLanguage.code {
+        case "ko": return nameKo
+        case "ja": return nameJa
+        default: return name
+        }
+    }
 
     /// 도감 번호 문자열 (#025)
     var displayNumber: String {
@@ -114,13 +129,14 @@ final class PokemonDataManager {
         }
     }
 
-    /// 이름(영문/한글)/번호 검색 (전체 세대 대상, 세대/타입 필터 무시)
+    /// 이름(영문/한글/일본어)/번호 검색 (전체 세대 대상, 세대/타입 필터 무시)
     func search(query: String) -> [PokemonData] {
         let q = query.lowercased().trimmingCharacters(in: .whitespaces)
         guard !q.isEmpty else { return [] }
         return allPokemon.filter { pokemon in
             pokemon.name.lowercased().contains(q)
             || pokemon.nameKo.contains(q)
+            || pokemon.nameJa.contains(q)
             || String(pokemon.id).contains(q)
             || pokemon.displayNumber.contains(q)
         }

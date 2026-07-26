@@ -20,9 +20,9 @@ enum WindowLevelOption: Int, CaseIterable {
 
     var displayName: String {
         switch self {
-        case .alwaysOnTop: "항상 위 (모든 창 위)"
-        case .normal: "일반 (다른 창에 가려짐)"
-        case .desktopOnly: "바탕화면만 (모든 창 아래)"
+        case .alwaysOnTop: String(localized: "Always on top (above all windows)")
+        case .normal: String(localized: "Normal (can be covered)")
+        case .desktopOnly: String(localized: "Desktop only (below all windows)")
         }
     }
 
@@ -215,24 +215,24 @@ final class SettingsManager {
     /// 이동 속도 표시 텍스트
     var movementSpeedLabel: String {
         switch movementSpeed {
-        case 1: return "매우 느림"
-        case 2: return "느림"
-        case 3: return "보통"
-        case 4: return "빠름"
-        case 5: return "매우 빠름"
-        default: return "보통"
+        case 1: return String(localized: "Very slow")
+        case 2: return String(localized: "Slow")
+        case 3: return String(localized: "Moderate")
+        case 4: return String(localized: "Fast")
+        case 5: return String(localized: "Very fast")
+        default: return String(localized: "Moderate")
         }
     }
 
     /// 활동 빈도 표시 텍스트
     var activityFrequencyLabel: String {
         switch activityFrequency {
-        case 1: return "매우 조용"
-        case 2: return "조용함"
-        case 3: return "보통"
-        case 4: return "활발함"
-        case 5: return "매우 활발"
-        default: return "보통"
+        case 1: return String(localized: "Very calm")
+        case 2: return String(localized: "Calm")
+        case 3: return String(localized: "Moderate")
+        case 4: return String(localized: "Active")
+        case 5: return String(localized: "Very active")
+        default: return String(localized: "Moderate")
         }
     }
 

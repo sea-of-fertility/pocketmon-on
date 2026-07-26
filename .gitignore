@@ -3,3 +3,6 @@ poketmon/Resources/Portraits/
 
 # Xcode 개인 설정
 xcuserdata/
+
+# 배포 패키지
+*.dmg
