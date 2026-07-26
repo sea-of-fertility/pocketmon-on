@@ -15,6 +15,56 @@ enum AppLanguage {
     static let code: String = Bundle.main.preferredLocalizations.first ?? "en"
 }
 
+// MARK: - 한글 초성 검색
+
+enum HangulSearch {
+    /// 초성 19자 (완성형 음절 초성 인덱스 순서)
+    private static let choseongTable: [Character] = [
+        "ㄱ", "ㄲ", "ㄴ", "ㄷ", "ㄸ", "ㄹ", "ㅁ", "ㅂ", "ㅃ", "ㅅ",
+        "ㅆ", "ㅇ", "ㅈ", "ㅉ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ",
+    ]
+
+    /// 완성형 한글 음절(가~힣)의 초성 추출, 음절이 아니면 nil
+    private static func choseong(of char: Character) -> Character? {
+        guard let scalar = char.unicodeScalars.first,
+              (0xAC00...0xD7A3).contains(scalar.value) else { return nil }
+        return choseongTable[Int(scalar.value - 0xAC00) / (21 * 28)]
+    }
+
+    private static func isChoseongJamo(_ char: Character) -> Bool {
+        choseongTable.contains(char)
+    }
+
+    /// 초성 자모가 섞인 검색어의 부분 일치 검색
+    /// 초성 자모는 해당 초성을 가진 음절과, 그 외 문자는 동일 문자와 매칭
+    /// 예: "ㅍㅋㅊ", "피카ㅊ" → "피카츄" 매칭
+    static func matches(text: String, query: String) -> Bool {
+        // 초성 자모가 없으면 일반 contains 검색과 동일하므로 건너뜀
+        guard query.contains(where: isChoseongJamo) else { return false }
+        let textChars = Array(text)
+        let queryChars = Array(query)
+        guard !queryChars.isEmpty, queryChars.count <= textChars.count else { return false }
+
+        for start in 0...(textChars.count - queryChars.count) {
+            var matched = true
+            for (offset, queryChar) in queryChars.enumerated() {
+                let textChar = textChars[start + offset]
+                if isChoseongJamo(queryChar) {
+                    if choseong(of: textChar) != queryChar {
+                        matched = false
+                        break
+                    }
+                } else if textChar != queryChar {
+                    matched = false
+                    break
+                }
+            }
+            if matched { return true }
+        }
+        return false
+    }
+}
+
 struct PokemonData: Codable, Identifiable {
     let id: Int
     let name: String
@@ -42,6 +92,17 @@ struct PokemonData: Codable, Identifiable {
     /// 4자리 ID 문자열 (0025) — 리소스 경로용
     var idString: String {
         String(format: "%04d", id)
+    }
+
+    /// 검색어 매칭 — 영문/한글/일본어 이름, 한글 초성(ㅍㅋㅊ), 도감 번호
+    /// query는 소문자·공백 제거된 상태여야 함
+    func matches(query: String) -> Bool {
+        name.lowercased().contains(query)
+        || nameKo.contains(query)
+        || nameJa.contains(query)
+        || String(id).contains(query)
+        || displayNumber.contains(query)
+        || HangulSearch.matches(text: nameKo, query: query)
     }
 }
 
@@ -129,17 +190,11 @@ final class PokemonDataManager {
         }
     }
 
-    /// 이름(영문/한글/일본어)/번호 검색 (전체 세대 대상, 세대/타입 필터 무시)
+    /// 이름(영문/한글 초성 포함/일본어)/번호 검색 (전체 세대 대상, 세대/타입 필터 무시)
     func search(query: String) -> [PokemonData] {
         let q = query.lowercased().trimmingCharacters(in: .whitespaces)
         guard !q.isEmpty else { return [] }
-        return allPokemon.filter { pokemon in
-            pokemon.name.lowercased().contains(q)
-            || pokemon.nameKo.contains(q)
-            || pokemon.nameJa.contains(q)
-            || String(pokemon.id).contains(q)
-            || pokemon.displayNumber.contains(q)
-        }
+        return allPokemon.filter { $0.matches(query: q) }
     }
 
     // MARK: - Portrait

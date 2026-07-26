@@ -185,13 +185,7 @@ struct PokemonSelectorView: View {
         let query = searchText.trimmingCharacters(in: .whitespaces)
         guard !query.isEmpty else { return base }
         let q = query.lowercased()
-        return base.filter {
-            $0.name.lowercased().contains(q)
-            || $0.nameKo.contains(q)
-            || $0.nameJa.contains(q)
-            || String($0.id).contains(q)
-            || $0.displayNumber.contains(q)
-        }
+        return base.filter { $0.matches(query: q) }
     }
 
     var body: some View {
