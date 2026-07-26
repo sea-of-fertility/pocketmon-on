@@ -166,20 +166,28 @@ struct PokemonSelectorView: View {
     @State private var searchText = ""
     @State private var selectedGen = 1
     @State private var activeTypes: Set<String> = []
+    @State private var showLegendary = false
+    @State private var showMythical = false
     @State private var selectedPokemonID: Int?
 
     private let dataManager = PetManager.shared.pokemonDataManager
 
     private let gridColumns = Array(repeating: GridItem(.flexible(), spacing: 8), count: 5)
 
-    /// 필터 조합 결과 (세대/타입 필터 적용 후 검색어로 추가 필터)
+    /// 필터 조합 결과 (세대/타입/분류 필터 적용 후 검색어로 추가 필터)
     private var filteredPokemon: [PokemonData] {
-        let base = dataManager.pokemon(gen: selectedGen, types: activeTypes)
+        var base = dataManager.pokemon(gen: selectedGen, types: activeTypes)
+        if showLegendary || showMythical {
+            base = base.filter {
+                ($0.isLegendary && showLegendary) || ($0.isMythical && showMythical)
+            }
+        }
         let query = searchText.trimmingCharacters(in: .whitespaces)
         guard !query.isEmpty else { return base }
         let q = query.lowercased()
         return base.filter {
             $0.name.lowercased().contains(q)
+            || $0.nameKo.contains(q)
             || String($0.id).contains(q)
             || $0.displayNumber.contains(q)
         }
@@ -264,9 +272,51 @@ struct PokemonSelectorView: View {
             chipRow(types: Array(allPokemonTypes[0..<6]))
             chipRow(types: Array(allPokemonTypes[6..<12]))
             chipRow(types: Array(allPokemonTypes[12..<18]))
+            categoryChipRow
         }
         .padding(.horizontal, 16)
         .padding(.bottom, 8)
+    }
+
+    /// 분류 필터 칩 (전설/환상)
+    private var categoryChipRow: some View {
+        HStack(spacing: 6) {
+            categoryChipButton(
+                label: "전설",
+                color: Color(red: 0.85, green: 0.60, blue: 0.13),
+                isActive: showLegendary
+            ) { showLegendary.toggle() }
+
+            categoryChipButton(
+                label: "환상",
+                color: Color(red: 0.72, green: 0.35, blue: 0.85),
+                isActive: showMythical
+            ) { showMythical.toggle() }
+        }
+    }
+
+    private func categoryChipButton(
+        label: String,
+        color: Color,
+        isActive: Bool,
+        action: @escaping () -> Void
+    ) -> some View {
+        Button(action: action) {
+            Label(label, systemImage: isActive ? "star.fill" : "star")
+                .font(.system(size: 11))
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 4)
+                .background(
+                    isActive ? color.opacity(0.2) : Color.primary.opacity(0.04),
+                    in: Capsule()
+                )
+                .overlay(
+                    Capsule()
+                        .stroke(isActive ? color.opacity(0.6) : Color.primary.opacity(0.1), lineWidth: 1)
+                )
+                .foregroundStyle(isActive ? color : .secondary)
+        }
+        .buttonStyle(.plain)
     }
 
     private func chipRow(types: [String]) -> some View {

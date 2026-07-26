@@ -6,7 +6,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "이상해씨",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 2,
@@ -15,7 +18,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "이상해풀",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 3,
@@ -24,7 +30,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "이상해꽃",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 4,
@@ -32,7 +41,10 @@
     "gen": 1,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "파이리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 5,
@@ -40,7 +52,10 @@
     "gen": 1,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "리자드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 6,
@@ -49,7 +64,10 @@
     "types": [
       "Fire",
       "Flying"
-    ]
+    ],
+    "nameKo": "리자몽",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 7,
@@ -57,7 +75,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "꼬부기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 8,
@@ -65,7 +86,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "어니부기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 9,
@@ -73,7 +97,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "거북왕",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 10,
@@ -81,7 +108,10 @@
     "gen": 1,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "캐터피",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 11,
@@ -89,7 +119,10 @@
     "gen": 1,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "단데기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 12,
@@ -98,7 +131,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "버터플",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 13,
@@ -107,7 +143,10 @@
     "types": [
       "Bug",
       "Poison"
-    ]
+    ],
+    "nameKo": "뿔충이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 14,
@@ -116,7 +155,10 @@
     "types": [
       "Bug",
       "Poison"
-    ]
+    ],
+    "nameKo": "딱충이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 15,
@@ -125,7 +167,10 @@
     "types": [
       "Bug",
       "Poison"
-    ]
+    ],
+    "nameKo": "독침붕",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 16,
@@ -134,7 +179,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "구구",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 17,
@@ -143,7 +191,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "피죤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 18,
@@ -152,7 +203,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "피죤투",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 19,
@@ -160,7 +214,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "꼬렛",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 20,
@@ -168,7 +225,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "레트라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 21,
@@ -177,7 +237,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "깨비참",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 22,
@@ -186,7 +249,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "깨비드릴조",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 23,
@@ -194,7 +260,10 @@
     "gen": 1,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "아보",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 24,
@@ -202,7 +271,10 @@
     "gen": 1,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "아보크",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 25,
@@ -210,7 +282,10 @@
     "gen": 1,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "피카츄",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 26,
@@ -218,7 +293,10 @@
     "gen": 1,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "라이츄",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 27,
@@ -226,7 +304,10 @@
     "gen": 1,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "모래두지",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 28,
@@ -234,7 +315,10 @@
     "gen": 1,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "고지",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 29,
@@ -242,7 +326,10 @@
     "gen": 1,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "니드런♀",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 30,
@@ -250,7 +337,10 @@
     "gen": 1,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "니드리나",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 31,
@@ -259,7 +349,10 @@
     "types": [
       "Poison",
       "Ground"
-    ]
+    ],
+    "nameKo": "니드퀸",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 32,
@@ -267,7 +360,10 @@
     "gen": 1,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "니드런♂",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 33,
@@ -275,7 +371,10 @@
     "gen": 1,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "니드리노",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 34,
@@ -284,7 +383,10 @@
     "types": [
       "Poison",
       "Ground"
-    ]
+    ],
+    "nameKo": "니드킹",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 35,
@@ -292,7 +394,10 @@
     "gen": 1,
     "types": [
       "Fairy"
-    ]
+    ],
+    "nameKo": "삐삐",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 36,
@@ -300,7 +405,10 @@
     "gen": 1,
     "types": [
       "Fairy"
-    ]
+    ],
+    "nameKo": "픽시",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 37,
@@ -308,7 +416,10 @@
     "gen": 1,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "식스테일",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 38,
@@ -316,7 +427,10 @@
     "gen": 1,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "나인테일",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 39,
@@ -325,7 +439,10 @@
     "types": [
       "Normal",
       "Fairy"
-    ]
+    ],
+    "nameKo": "푸린",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 40,
@@ -334,7 +451,10 @@
     "types": [
       "Normal",
       "Fairy"
-    ]
+    ],
+    "nameKo": "푸크린",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 41,
@@ -343,7 +463,10 @@
     "types": [
       "Poison",
       "Flying"
-    ]
+    ],
+    "nameKo": "주뱃",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 42,
@@ -352,7 +475,10 @@
     "types": [
       "Poison",
       "Flying"
-    ]
+    ],
+    "nameKo": "골뱃",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 43,
@@ -361,7 +487,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "뚜벅쵸",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 44,
@@ -370,7 +499,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "냄새꼬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 45,
@@ -379,7 +511,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "라플레시아",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 46,
@@ -388,7 +523,10 @@
     "types": [
       "Bug",
       "Grass"
-    ]
+    ],
+    "nameKo": "파라스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 47,
@@ -397,7 +535,10 @@
     "types": [
       "Bug",
       "Grass"
-    ]
+    ],
+    "nameKo": "파라섹트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 48,
@@ -406,7 +547,10 @@
     "types": [
       "Bug",
       "Poison"
-    ]
+    ],
+    "nameKo": "콘팡",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 49,
@@ -415,7 +559,10 @@
     "types": [
       "Bug",
       "Poison"
-    ]
+    ],
+    "nameKo": "도나리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 50,
@@ -423,7 +570,10 @@
     "gen": 1,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "디그다",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 51,
@@ -431,7 +581,10 @@
     "gen": 1,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "닥트리오",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 52,
@@ -439,7 +592,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "나옹",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 53,
@@ -447,7 +603,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "페르시온",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 54,
@@ -455,7 +614,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "고라파덕",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 55,
@@ -463,7 +625,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "골덕",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 56,
@@ -471,7 +636,10 @@
     "gen": 1,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "망키",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 57,
@@ -479,7 +647,10 @@
     "gen": 1,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "성원숭",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 58,
@@ -487,7 +658,10 @@
     "gen": 1,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "가디",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 59,
@@ -495,7 +669,10 @@
     "gen": 1,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "윈디",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 60,
@@ -503,7 +680,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "발챙이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 61,
@@ -511,7 +691,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "슈륙챙이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 62,
@@ -520,7 +703,10 @@
     "types": [
       "Water",
       "Fighting"
-    ]
+    ],
+    "nameKo": "강챙이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 63,
@@ -528,7 +714,10 @@
     "gen": 1,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "캐이시",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 64,
@@ -536,7 +725,10 @@
     "gen": 1,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "윤겔라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 65,
@@ -544,7 +736,10 @@
     "gen": 1,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "후딘",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 66,
@@ -552,7 +747,10 @@
     "gen": 1,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "알통몬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 67,
@@ -560,7 +758,10 @@
     "gen": 1,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "근육몬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 68,
@@ -568,7 +769,10 @@
     "gen": 1,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "괴력몬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 69,
@@ -577,7 +781,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "모다피",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 70,
@@ -586,7 +793,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "우츠동",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 71,
@@ -595,7 +805,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "우츠보트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 72,
@@ -604,7 +817,10 @@
     "types": [
       "Water",
       "Poison"
-    ]
+    ],
+    "nameKo": "왕눈해",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 73,
@@ -613,7 +829,10 @@
     "types": [
       "Water",
       "Poison"
-    ]
+    ],
+    "nameKo": "독파리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 74,
@@ -622,7 +841,10 @@
     "types": [
       "Rock",
       "Ground"
-    ]
+    ],
+    "nameKo": "꼬마돌",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 75,
@@ -631,7 +853,10 @@
     "types": [
       "Rock",
       "Ground"
-    ]
+    ],
+    "nameKo": "데구리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 76,
@@ -640,7 +865,10 @@
     "types": [
       "Rock",
       "Ground"
-    ]
+    ],
+    "nameKo": "딱구리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 77,
@@ -648,7 +876,10 @@
     "gen": 1,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "포니타",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 78,
@@ -656,7 +887,10 @@
     "gen": 1,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "날쌩마",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 79,
@@ -665,7 +899,10 @@
     "types": [
       "Water",
       "Psychic"
-    ]
+    ],
+    "nameKo": "야돈",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 80,
@@ -674,7 +911,10 @@
     "types": [
       "Water",
       "Psychic"
-    ]
+    ],
+    "nameKo": "야도란",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 81,
@@ -683,7 +923,10 @@
     "types": [
       "Electric",
       "Steel"
-    ]
+    ],
+    "nameKo": "코일",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 82,
@@ -692,7 +935,10 @@
     "types": [
       "Electric",
       "Steel"
-    ]
+    ],
+    "nameKo": "레어코일",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 83,
@@ -701,7 +947,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "파오리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 84,
@@ -710,7 +959,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "두두",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 85,
@@ -719,7 +971,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "두트리오",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 86,
@@ -727,7 +982,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "쥬쥬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 87,
@@ -736,7 +994,10 @@
     "types": [
       "Water",
       "Ice"
-    ]
+    ],
+    "nameKo": "쥬레곤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 88,
@@ -744,7 +1005,10 @@
     "gen": 1,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "질퍽이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 89,
@@ -752,7 +1016,10 @@
     "gen": 1,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "질뻐기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 90,
@@ -760,7 +1027,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "셀러",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 91,
@@ -769,7 +1039,10 @@
     "types": [
       "Water",
       "Ice"
-    ]
+    ],
+    "nameKo": "파르셀",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 92,
@@ -778,7 +1051,10 @@
     "types": [
       "Ghost",
       "Poison"
-    ]
+    ],
+    "nameKo": "고오스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 93,
@@ -787,7 +1063,10 @@
     "types": [
       "Ghost",
       "Poison"
-    ]
+    ],
+    "nameKo": "고우스트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 94,
@@ -796,7 +1075,10 @@
     "types": [
       "Ghost",
       "Poison"
-    ]
+    ],
+    "nameKo": "팬텀",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 95,
@@ -805,7 +1087,10 @@
     "types": [
       "Rock",
       "Ground"
-    ]
+    ],
+    "nameKo": "롱스톤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 96,
@@ -813,7 +1098,10 @@
     "gen": 1,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "슬리프",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 97,
@@ -821,7 +1109,10 @@
     "gen": 1,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "슬리퍼",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 98,
@@ -829,7 +1120,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "크랩",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 99,
@@ -837,7 +1131,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "킹크랩",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 100,
@@ -845,7 +1142,10 @@
     "gen": 1,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "찌리리공",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 101,
@@ -853,7 +1153,10 @@
     "gen": 1,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "붐볼",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 102,
@@ -862,7 +1165,10 @@
     "types": [
       "Grass",
       "Psychic"
-    ]
+    ],
+    "nameKo": "아라리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 103,
@@ -871,7 +1177,10 @@
     "types": [
       "Grass",
       "Psychic"
-    ]
+    ],
+    "nameKo": "나시",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 104,
@@ -879,7 +1188,10 @@
     "gen": 1,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "탕구리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 105,
@@ -887,7 +1199,10 @@
     "gen": 1,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "텅구리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 106,
@@ -895,7 +1210,10 @@
     "gen": 1,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "시라소몬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 107,
@@ -903,7 +1221,10 @@
     "gen": 1,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "홍수몬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 108,
@@ -911,7 +1232,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "내루미",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 109,
@@ -919,7 +1243,10 @@
     "gen": 1,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "또가스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 110,
@@ -927,7 +1254,10 @@
     "gen": 1,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "또도가스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 111,
@@ -936,7 +1266,10 @@
     "types": [
       "Ground",
       "Rock"
-    ]
+    ],
+    "nameKo": "뿔카노",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 112,
@@ -945,7 +1278,10 @@
     "types": [
       "Ground",
       "Rock"
-    ]
+    ],
+    "nameKo": "코뿌리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 113,
@@ -953,7 +1289,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "럭키",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 114,
@@ -961,7 +1300,10 @@
     "gen": 1,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "덩쿠리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 115,
@@ -969,7 +1311,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "캥카",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 116,
@@ -977,7 +1322,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "쏘드라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 117,
@@ -985,7 +1333,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "시드라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 118,
@@ -993,7 +1344,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "콘치",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 119,
@@ -1001,7 +1355,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "왕콘치",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 120,
@@ -1009,7 +1366,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "별가사리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 121,
@@ -1018,7 +1378,10 @@
     "types": [
       "Water",
       "Psychic"
-    ]
+    ],
+    "nameKo": "아쿠스타",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 122,
@@ -1027,7 +1390,10 @@
     "types": [
       "Psychic",
       "Fairy"
-    ]
+    ],
+    "nameKo": "마임맨",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 123,
@@ -1036,7 +1402,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "스라크",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 124,
@@ -1045,7 +1414,10 @@
     "types": [
       "Ice",
       "Psychic"
-    ]
+    ],
+    "nameKo": "루주라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 125,
@@ -1053,7 +1425,10 @@
     "gen": 1,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "에레브",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 126,
@@ -1061,7 +1436,10 @@
     "gen": 1,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "마그마",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 127,
@@ -1069,7 +1447,10 @@
     "gen": 1,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "쁘사이저",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 128,
@@ -1077,7 +1458,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "켄타로스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 129,
@@ -1085,7 +1469,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "잉어킹",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 130,
@@ -1094,7 +1481,10 @@
     "types": [
       "Water",
       "Flying"
-    ]
+    ],
+    "nameKo": "갸라도스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 131,
@@ -1103,7 +1493,10 @@
     "types": [
       "Water",
       "Ice"
-    ]
+    ],
+    "nameKo": "라프라스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 132,
@@ -1111,7 +1504,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "메타몽",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 133,
@@ -1119,7 +1515,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "이브이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 134,
@@ -1127,7 +1526,10 @@
     "gen": 1,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "샤미드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 135,
@@ -1135,7 +1537,10 @@
     "gen": 1,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "쥬피썬더",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 136,
@@ -1143,7 +1548,10 @@
     "gen": 1,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "부스터",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 137,
@@ -1151,7 +1559,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "폴리곤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 138,
@@ -1160,7 +1571,10 @@
     "types": [
       "Rock",
       "Water"
-    ]
+    ],
+    "nameKo": "암나이트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 139,
@@ -1169,7 +1583,10 @@
     "types": [
       "Rock",
       "Water"
-    ]
+    ],
+    "nameKo": "암스타",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 140,
@@ -1178,7 +1595,10 @@
     "types": [
       "Rock",
       "Water"
-    ]
+    ],
+    "nameKo": "투구",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 141,
@@ -1187,7 +1607,10 @@
     "types": [
       "Rock",
       "Water"
-    ]
+    ],
+    "nameKo": "투구푸스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 142,
@@ -1196,7 +1619,10 @@
     "types": [
       "Rock",
       "Flying"
-    ]
+    ],
+    "nameKo": "프테라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 143,
@@ -1204,7 +1630,10 @@
     "gen": 1,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "잠만보",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 144,
@@ -1213,7 +1642,10 @@
     "types": [
       "Ice",
       "Flying"
-    ]
+    ],
+    "nameKo": "프리져",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 145,
@@ -1222,7 +1654,10 @@
     "types": [
       "Electric",
       "Flying"
-    ]
+    ],
+    "nameKo": "썬더",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 146,
@@ -1231,7 +1666,10 @@
     "types": [
       "Fire",
       "Flying"
-    ]
+    ],
+    "nameKo": "파이어",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 147,
@@ -1239,7 +1677,10 @@
     "gen": 1,
     "types": [
       "Dragon"
-    ]
+    ],
+    "nameKo": "미뇽",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 148,
@@ -1247,7 +1688,10 @@
     "gen": 1,
     "types": [
       "Dragon"
-    ]
+    ],
+    "nameKo": "신뇽",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 149,
@@ -1256,7 +1700,10 @@
     "types": [
       "Dragon",
       "Flying"
-    ]
+    ],
+    "nameKo": "망나뇽",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 150,
@@ -1264,7 +1711,10 @@
     "gen": 1,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "뮤츠",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 151,
@@ -1272,7 +1722,10 @@
     "gen": 1,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "뮤",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 152,
@@ -1280,7 +1733,10 @@
     "gen": 2,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "치코리타",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 153,
@@ -1288,7 +1744,10 @@
     "gen": 2,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "베이리프",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 154,
@@ -1296,7 +1755,10 @@
     "gen": 2,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "메가니움",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 155,
@@ -1304,7 +1766,10 @@
     "gen": 2,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "브케인",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 156,
@@ -1312,7 +1777,10 @@
     "gen": 2,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "마그케인",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 157,
@@ -1320,7 +1788,10 @@
     "gen": 2,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "블레이범",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 158,
@@ -1328,7 +1799,10 @@
     "gen": 2,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "리아코",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 159,
@@ -1336,7 +1810,10 @@
     "gen": 2,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "엘리게이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 160,
@@ -1344,7 +1821,10 @@
     "gen": 2,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "장크로다일",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 161,
@@ -1352,7 +1832,10 @@
     "gen": 2,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "꼬리선",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 162,
@@ -1360,7 +1843,10 @@
     "gen": 2,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "다꼬리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 163,
@@ -1369,7 +1855,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "부우부",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 164,
@@ -1378,7 +1867,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "야부엉",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 165,
@@ -1387,7 +1879,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "레디바",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 166,
@@ -1396,7 +1891,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "레디안",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 167,
@@ -1405,7 +1903,10 @@
     "types": [
       "Bug",
       "Poison"
-    ]
+    ],
+    "nameKo": "페이검",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 168,
@@ -1414,7 +1915,10 @@
     "types": [
       "Bug",
       "Poison"
-    ]
+    ],
+    "nameKo": "아리아도스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 169,
@@ -1423,7 +1927,10 @@
     "types": [
       "Poison",
       "Flying"
-    ]
+    ],
+    "nameKo": "크로뱃",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 170,
@@ -1432,7 +1939,10 @@
     "types": [
       "Water",
       "Electric"
-    ]
+    ],
+    "nameKo": "초라기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 171,
@@ -1441,7 +1951,10 @@
     "types": [
       "Water",
       "Electric"
-    ]
+    ],
+    "nameKo": "랜턴",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 172,
@@ -1449,7 +1962,10 @@
     "gen": 2,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "피츄",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 173,
@@ -1457,7 +1973,10 @@
     "gen": 2,
     "types": [
       "Fairy"
-    ]
+    ],
+    "nameKo": "삐",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 174,
@@ -1466,7 +1985,10 @@
     "types": [
       "Normal",
       "Fairy"
-    ]
+    ],
+    "nameKo": "푸푸린",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 175,
@@ -1474,7 +1996,10 @@
     "gen": 2,
     "types": [
       "Fairy"
-    ]
+    ],
+    "nameKo": "토게피",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 176,
@@ -1483,7 +2008,10 @@
     "types": [
       "Fairy",
       "Flying"
-    ]
+    ],
+    "nameKo": "토게틱",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 177,
@@ -1492,7 +2020,10 @@
     "types": [
       "Psychic",
       "Flying"
-    ]
+    ],
+    "nameKo": "네이티",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 178,
@@ -1501,7 +2032,10 @@
     "types": [
       "Psychic",
       "Flying"
-    ]
+    ],
+    "nameKo": "네이티오",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 179,
@@ -1509,7 +2043,10 @@
     "gen": 2,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "메리프",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 180,
@@ -1517,7 +2054,10 @@
     "gen": 2,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "보송송",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 181,
@@ -1525,7 +2065,10 @@
     "gen": 2,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "전룡",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 182,
@@ -1533,7 +2076,10 @@
     "gen": 2,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "아르코",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 183,
@@ -1542,7 +2088,10 @@
     "types": [
       "Water",
       "Fairy"
-    ]
+    ],
+    "nameKo": "마릴",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 184,
@@ -1551,7 +2100,10 @@
     "types": [
       "Water",
       "Fairy"
-    ]
+    ],
+    "nameKo": "마릴리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 185,
@@ -1559,7 +2111,10 @@
     "gen": 2,
     "types": [
       "Rock"
-    ]
+    ],
+    "nameKo": "꼬지모",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 186,
@@ -1567,7 +2122,10 @@
     "gen": 2,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "왕구리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 187,
@@ -1576,7 +2134,10 @@
     "types": [
       "Grass",
       "Flying"
-    ]
+    ],
+    "nameKo": "통통코",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 188,
@@ -1585,7 +2146,10 @@
     "types": [
       "Grass",
       "Flying"
-    ]
+    ],
+    "nameKo": "두코",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 189,
@@ -1594,7 +2158,10 @@
     "types": [
       "Grass",
       "Flying"
-    ]
+    ],
+    "nameKo": "솜솜코",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 190,
@@ -1602,7 +2169,10 @@
     "gen": 2,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "에이팜",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 191,
@@ -1610,7 +2180,10 @@
     "gen": 2,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "해너츠",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 192,
@@ -1618,7 +2191,10 @@
     "gen": 2,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "해루미",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 193,
@@ -1627,7 +2203,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "왕자리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 194,
@@ -1636,7 +2215,10 @@
     "types": [
       "Water",
       "Ground"
-    ]
+    ],
+    "nameKo": "우파",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 195,
@@ -1645,7 +2227,10 @@
     "types": [
       "Water",
       "Ground"
-    ]
+    ],
+    "nameKo": "누오",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 196,
@@ -1653,7 +2238,10 @@
     "gen": 2,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "에브이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 197,
@@ -1661,7 +2249,10 @@
     "gen": 2,
     "types": [
       "Dark"
-    ]
+    ],
+    "nameKo": "블래키",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 198,
@@ -1670,7 +2261,10 @@
     "types": [
       "Dark",
       "Flying"
-    ]
+    ],
+    "nameKo": "니로우",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 199,
@@ -1679,7 +2273,10 @@
     "types": [
       "Water",
       "Psychic"
-    ]
+    ],
+    "nameKo": "야도킹",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 200,
@@ -1687,7 +2284,10 @@
     "gen": 2,
     "types": [
       "Ghost"
-    ]
+    ],
+    "nameKo": "무우마",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 201,
@@ -1695,7 +2295,10 @@
     "gen": 2,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "안농",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 202,
@@ -1703,7 +2306,10 @@
     "gen": 2,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "마자용",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 203,
@@ -1712,7 +2318,10 @@
     "types": [
       "Normal",
       "Psychic"
-    ]
+    ],
+    "nameKo": "키링키",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 204,
@@ -1720,7 +2329,10 @@
     "gen": 2,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "피콘",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 205,
@@ -1729,7 +2341,10 @@
     "types": [
       "Bug",
       "Steel"
-    ]
+    ],
+    "nameKo": "쏘콘",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 206,
@@ -1737,7 +2352,10 @@
     "gen": 2,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "노고치",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 207,
@@ -1746,7 +2364,10 @@
     "types": [
       "Ground",
       "Flying"
-    ]
+    ],
+    "nameKo": "글라이거",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 208,
@@ -1755,7 +2376,10 @@
     "types": [
       "Steel",
       "Ground"
-    ]
+    ],
+    "nameKo": "강철톤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 209,
@@ -1763,7 +2387,10 @@
     "gen": 2,
     "types": [
       "Fairy"
-    ]
+    ],
+    "nameKo": "블루",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 210,
@@ -1771,7 +2398,10 @@
     "gen": 2,
     "types": [
       "Fairy"
-    ]
+    ],
+    "nameKo": "그랑블루",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 211,
@@ -1780,7 +2410,10 @@
     "types": [
       "Water",
       "Poison"
-    ]
+    ],
+    "nameKo": "침바루",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 212,
@@ -1789,7 +2422,10 @@
     "types": [
       "Bug",
       "Steel"
-    ]
+    ],
+    "nameKo": "핫삼",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 213,
@@ -1798,7 +2434,10 @@
     "types": [
       "Bug",
       "Rock"
-    ]
+    ],
+    "nameKo": "단단지",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 214,
@@ -1807,7 +2446,10 @@
     "types": [
       "Bug",
       "Fighting"
-    ]
+    ],
+    "nameKo": "헤라크로스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 215,
@@ -1816,7 +2458,10 @@
     "types": [
       "Dark",
       "Ice"
-    ]
+    ],
+    "nameKo": "포푸니",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 216,
@@ -1824,7 +2469,10 @@
     "gen": 2,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "깜지곰",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 217,
@@ -1832,7 +2480,10 @@
     "gen": 2,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "링곰",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 218,
@@ -1840,7 +2491,10 @@
     "gen": 2,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "마그마그",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 219,
@@ -1849,7 +2503,10 @@
     "types": [
       "Fire",
       "Rock"
-    ]
+    ],
+    "nameKo": "마그카르고",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 220,
@@ -1858,7 +2515,10 @@
     "types": [
       "Ice",
       "Ground"
-    ]
+    ],
+    "nameKo": "꾸꾸리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 221,
@@ -1867,7 +2527,10 @@
     "types": [
       "Ice",
       "Ground"
-    ]
+    ],
+    "nameKo": "메꾸리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 222,
@@ -1876,7 +2539,10 @@
     "types": [
       "Water",
       "Rock"
-    ]
+    ],
+    "nameKo": "코산호",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 223,
@@ -1884,7 +2550,10 @@
     "gen": 2,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "총어",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 224,
@@ -1892,7 +2561,10 @@
     "gen": 2,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "대포무노",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 225,
@@ -1901,7 +2573,10 @@
     "types": [
       "Ice",
       "Flying"
-    ]
+    ],
+    "nameKo": "딜리버드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 226,
@@ -1910,7 +2585,10 @@
     "types": [
       "Water",
       "Flying"
-    ]
+    ],
+    "nameKo": "만타인",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 227,
@@ -1919,7 +2597,10 @@
     "types": [
       "Steel",
       "Flying"
-    ]
+    ],
+    "nameKo": "무장조",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 228,
@@ -1928,7 +2609,10 @@
     "types": [
       "Dark",
       "Fire"
-    ]
+    ],
+    "nameKo": "델빌",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 229,
@@ -1937,7 +2621,10 @@
     "types": [
       "Dark",
       "Fire"
-    ]
+    ],
+    "nameKo": "헬가",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 230,
@@ -1946,7 +2633,10 @@
     "types": [
       "Water",
       "Dragon"
-    ]
+    ],
+    "nameKo": "킹드라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 231,
@@ -1954,7 +2644,10 @@
     "gen": 2,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "코코리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 232,
@@ -1962,7 +2655,10 @@
     "gen": 2,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "코리갑",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 233,
@@ -1970,7 +2666,10 @@
     "gen": 2,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "폴리곤2",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 234,
@@ -1978,7 +2677,10 @@
     "gen": 2,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "노라키",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 235,
@@ -1986,7 +2688,10 @@
     "gen": 2,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "루브도",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 236,
@@ -1994,7 +2699,10 @@
     "gen": 2,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "배루키",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 237,
@@ -2002,7 +2710,10 @@
     "gen": 2,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "카포에라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 238,
@@ -2011,7 +2722,10 @@
     "types": [
       "Ice",
       "Psychic"
-    ]
+    ],
+    "nameKo": "뽀뽀라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 239,
@@ -2019,7 +2733,10 @@
     "gen": 2,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "에레키드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 240,
@@ -2027,7 +2744,10 @@
     "gen": 2,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "마그비",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 241,
@@ -2035,7 +2755,10 @@
     "gen": 2,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "밀탱크",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 242,
@@ -2043,7 +2766,10 @@
     "gen": 2,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "해피너스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 243,
@@ -2051,7 +2777,10 @@
     "gen": 2,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "라이코",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 244,
@@ -2059,7 +2788,10 @@
     "gen": 2,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "앤테이",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 245,
@@ -2067,7 +2799,10 @@
     "gen": 2,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "스이쿤",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 246,
@@ -2076,7 +2811,10 @@
     "types": [
       "Rock",
       "Ground"
-    ]
+    ],
+    "nameKo": "애버라스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 247,
@@ -2085,7 +2823,10 @@
     "types": [
       "Rock",
       "Ground"
-    ]
+    ],
+    "nameKo": "데기라스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 248,
@@ -2094,7 +2835,10 @@
     "types": [
       "Rock",
       "Dark"
-    ]
+    ],
+    "nameKo": "마기라스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 249,
@@ -2103,7 +2847,10 @@
     "types": [
       "Psychic",
       "Flying"
-    ]
+    ],
+    "nameKo": "루기아",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 250,
@@ -2112,7 +2859,10 @@
     "types": [
       "Fire",
       "Flying"
-    ]
+    ],
+    "nameKo": "칠색조",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 251,
@@ -2121,7 +2871,10 @@
     "types": [
       "Psychic",
       "Grass"
-    ]
+    ],
+    "nameKo": "세레비",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 252,
@@ -2129,7 +2882,10 @@
     "gen": 3,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "나무지기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 253,
@@ -2137,7 +2893,10 @@
     "gen": 3,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "나무돌이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 254,
@@ -2145,7 +2904,10 @@
     "gen": 3,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "나무킹",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 255,
@@ -2153,7 +2915,10 @@
     "gen": 3,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "아차모",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 256,
@@ -2162,7 +2927,10 @@
     "types": [
       "Fire",
       "Fighting"
-    ]
+    ],
+    "nameKo": "영치코",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 257,
@@ -2171,7 +2939,10 @@
     "types": [
       "Fire",
       "Fighting"
-    ]
+    ],
+    "nameKo": "번치코",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 258,
@@ -2179,7 +2950,10 @@
     "gen": 3,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "물짱이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 259,
@@ -2188,7 +2962,10 @@
     "types": [
       "Water",
       "Ground"
-    ]
+    ],
+    "nameKo": "늪짱이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 260,
@@ -2197,7 +2974,10 @@
     "types": [
       "Water",
       "Ground"
-    ]
+    ],
+    "nameKo": "대짱이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 261,
@@ -2205,7 +2985,10 @@
     "gen": 3,
     "types": [
       "Dark"
-    ]
+    ],
+    "nameKo": "포챠나",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 262,
@@ -2213,7 +2996,10 @@
     "gen": 3,
     "types": [
       "Dark"
-    ]
+    ],
+    "nameKo": "그라에나",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 263,
@@ -2221,7 +3007,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "지그제구리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 264,
@@ -2229,7 +3018,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "직구리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 265,
@@ -2237,7 +3029,10 @@
     "gen": 3,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "개무소",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 266,
@@ -2245,7 +3040,10 @@
     "gen": 3,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "실쿤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 267,
@@ -2254,7 +3052,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "뷰티플라이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 268,
@@ -2262,7 +3063,10 @@
     "gen": 3,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "카스쿤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 269,
@@ -2271,7 +3075,10 @@
     "types": [
       "Bug",
       "Poison"
-    ]
+    ],
+    "nameKo": "독케일",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 270,
@@ -2280,7 +3087,10 @@
     "types": [
       "Water",
       "Grass"
-    ]
+    ],
+    "nameKo": "연꽃몬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 271,
@@ -2289,7 +3099,10 @@
     "types": [
       "Water",
       "Grass"
-    ]
+    ],
+    "nameKo": "로토스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 272,
@@ -2298,7 +3111,10 @@
     "types": [
       "Water",
       "Grass"
-    ]
+    ],
+    "nameKo": "로파파",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 273,
@@ -2306,7 +3122,10 @@
     "gen": 3,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "도토링",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 274,
@@ -2315,7 +3134,10 @@
     "types": [
       "Grass",
       "Dark"
-    ]
+    ],
+    "nameKo": "잎새코",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 275,
@@ -2324,7 +3146,10 @@
     "types": [
       "Grass",
       "Dark"
-    ]
+    ],
+    "nameKo": "다탱구",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 276,
@@ -2333,7 +3158,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "테일로",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 277,
@@ -2342,7 +3170,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "스왈로",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 278,
@@ -2351,7 +3182,10 @@
     "types": [
       "Water",
       "Flying"
-    ]
+    ],
+    "nameKo": "갈모매",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 279,
@@ -2360,7 +3194,10 @@
     "types": [
       "Water",
       "Flying"
-    ]
+    ],
+    "nameKo": "패리퍼",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 280,
@@ -2369,7 +3206,10 @@
     "types": [
       "Psychic",
       "Fairy"
-    ]
+    ],
+    "nameKo": "랄토스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 281,
@@ -2378,7 +3218,10 @@
     "types": [
       "Psychic",
       "Fairy"
-    ]
+    ],
+    "nameKo": "킬리아",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 282,
@@ -2387,7 +3230,10 @@
     "types": [
       "Psychic",
       "Fairy"
-    ]
+    ],
+    "nameKo": "가디안",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 283,
@@ -2396,7 +3242,10 @@
     "types": [
       "Bug",
       "Water"
-    ]
+    ],
+    "nameKo": "비구술",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 284,
@@ -2405,7 +3254,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "비나방",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 285,
@@ -2413,7 +3265,10 @@
     "gen": 3,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "버섯꼬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 286,
@@ -2422,7 +3277,10 @@
     "types": [
       "Grass",
       "Fighting"
-    ]
+    ],
+    "nameKo": "버섯모",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 287,
@@ -2430,7 +3288,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "게을로",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 288,
@@ -2438,7 +3299,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "발바로",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 289,
@@ -2446,7 +3310,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "게을킹",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 290,
@@ -2455,7 +3322,10 @@
     "types": [
       "Bug",
       "Ground"
-    ]
+    ],
+    "nameKo": "토중몬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 291,
@@ -2464,7 +3334,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "아이스크",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 292,
@@ -2473,7 +3346,10 @@
     "types": [
       "Bug",
       "Ghost"
-    ]
+    ],
+    "nameKo": "껍질몬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 293,
@@ -2481,7 +3357,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "소곤룡",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 294,
@@ -2489,7 +3368,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "노공룡",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 295,
@@ -2497,7 +3379,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "폭음룡",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 296,
@@ -2505,7 +3390,10 @@
     "gen": 3,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "마크탕",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 297,
@@ -2513,7 +3401,10 @@
     "gen": 3,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "하리뭉",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 298,
@@ -2522,7 +3413,10 @@
     "types": [
       "Normal",
       "Fairy"
-    ]
+    ],
+    "nameKo": "루리리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 299,
@@ -2530,7 +3424,10 @@
     "gen": 3,
     "types": [
       "Rock"
-    ]
+    ],
+    "nameKo": "코코파스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 300,
@@ -2538,7 +3435,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "에나비",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 301,
@@ -2546,7 +3446,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "델케티",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 302,
@@ -2555,7 +3458,10 @@
     "types": [
       "Dark",
       "Ghost"
-    ]
+    ],
+    "nameKo": "깜까미",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 303,
@@ -2564,7 +3470,10 @@
     "types": [
       "Steel",
       "Fairy"
-    ]
+    ],
+    "nameKo": "입치트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 304,
@@ -2573,7 +3482,10 @@
     "types": [
       "Steel",
       "Rock"
-    ]
+    ],
+    "nameKo": "가보리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 305,
@@ -2582,7 +3494,10 @@
     "types": [
       "Steel",
       "Rock"
-    ]
+    ],
+    "nameKo": "갱도라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 306,
@@ -2591,7 +3506,10 @@
     "types": [
       "Steel",
       "Rock"
-    ]
+    ],
+    "nameKo": "보스로라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 307,
@@ -2600,7 +3518,10 @@
     "types": [
       "Fighting",
       "Psychic"
-    ]
+    ],
+    "nameKo": "요가랑",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 308,
@@ -2609,7 +3530,10 @@
     "types": [
       "Fighting",
       "Psychic"
-    ]
+    ],
+    "nameKo": "요가램",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 309,
@@ -2617,7 +3541,10 @@
     "gen": 3,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "썬더라이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 310,
@@ -2625,7 +3552,10 @@
     "gen": 3,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "썬더볼트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 311,
@@ -2633,7 +3563,10 @@
     "gen": 3,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "플러시",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 312,
@@ -2641,7 +3574,10 @@
     "gen": 3,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "마이농",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 313,
@@ -2649,7 +3585,10 @@
     "gen": 3,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "볼비트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 314,
@@ -2657,7 +3596,10 @@
     "gen": 3,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "네오비트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 315,
@@ -2666,7 +3608,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "로젤리아",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 316,
@@ -2674,7 +3619,10 @@
     "gen": 3,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "꼴깍몬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 317,
@@ -2682,7 +3630,10 @@
     "gen": 3,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "꿀꺽몬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 318,
@@ -2691,7 +3642,10 @@
     "types": [
       "Water",
       "Dark"
-    ]
+    ],
+    "nameKo": "샤프니아",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 319,
@@ -2700,7 +3654,10 @@
     "types": [
       "Water",
       "Dark"
-    ]
+    ],
+    "nameKo": "샤크니아",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 320,
@@ -2708,7 +3665,10 @@
     "gen": 3,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "고래왕자",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 321,
@@ -2716,7 +3676,10 @@
     "gen": 3,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "고래왕",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 322,
@@ -2725,7 +3688,10 @@
     "types": [
       "Fire",
       "Ground"
-    ]
+    ],
+    "nameKo": "둔타",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 323,
@@ -2734,7 +3700,10 @@
     "types": [
       "Fire",
       "Ground"
-    ]
+    ],
+    "nameKo": "폭타",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 324,
@@ -2742,7 +3711,10 @@
     "gen": 3,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "코터스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 325,
@@ -2750,7 +3722,10 @@
     "gen": 3,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "피그점프",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 326,
@@ -2758,7 +3733,10 @@
     "gen": 3,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "피그킹",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 327,
@@ -2766,7 +3744,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "얼루기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 328,
@@ -2774,7 +3755,10 @@
     "gen": 3,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "톱치",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 329,
@@ -2783,7 +3767,10 @@
     "types": [
       "Ground",
       "Dragon"
-    ]
+    ],
+    "nameKo": "비브라바",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 330,
@@ -2792,7 +3779,10 @@
     "types": [
       "Ground",
       "Dragon"
-    ]
+    ],
+    "nameKo": "플라이곤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 331,
@@ -2800,7 +3790,10 @@
     "gen": 3,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "선인왕",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 332,
@@ -2809,7 +3802,10 @@
     "types": [
       "Grass",
       "Dark"
-    ]
+    ],
+    "nameKo": "밤선인",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 333,
@@ -2818,7 +3814,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "파비코",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 334,
@@ -2827,7 +3826,10 @@
     "types": [
       "Dragon",
       "Flying"
-    ]
+    ],
+    "nameKo": "파비코리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 335,
@@ -2835,7 +3837,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "쟝고",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 336,
@@ -2843,7 +3848,10 @@
     "gen": 3,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "세비퍼",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 337,
@@ -2852,7 +3860,10 @@
     "types": [
       "Rock",
       "Psychic"
-    ]
+    ],
+    "nameKo": "루나톤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 338,
@@ -2861,7 +3872,10 @@
     "types": [
       "Rock",
       "Psychic"
-    ]
+    ],
+    "nameKo": "솔록",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 339,
@@ -2870,7 +3884,10 @@
     "types": [
       "Water",
       "Ground"
-    ]
+    ],
+    "nameKo": "미꾸리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 340,
@@ -2879,7 +3896,10 @@
     "types": [
       "Water",
       "Ground"
-    ]
+    ],
+    "nameKo": "메깅",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 341,
@@ -2887,7 +3907,10 @@
     "gen": 3,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "가재군",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 342,
@@ -2896,7 +3919,10 @@
     "types": [
       "Water",
       "Dark"
-    ]
+    ],
+    "nameKo": "가재장군",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 343,
@@ -2905,7 +3931,10 @@
     "types": [
       "Ground",
       "Psychic"
-    ]
+    ],
+    "nameKo": "오뚝군",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 344,
@@ -2914,7 +3943,10 @@
     "types": [
       "Ground",
       "Psychic"
-    ]
+    ],
+    "nameKo": "점토도리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 345,
@@ -2923,7 +3955,10 @@
     "types": [
       "Rock",
       "Grass"
-    ]
+    ],
+    "nameKo": "릴링",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 346,
@@ -2932,7 +3967,10 @@
     "types": [
       "Rock",
       "Grass"
-    ]
+    ],
+    "nameKo": "릴리요",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 347,
@@ -2941,7 +3979,10 @@
     "types": [
       "Rock",
       "Bug"
-    ]
+    ],
+    "nameKo": "아노딥스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 348,
@@ -2950,7 +3991,10 @@
     "types": [
       "Rock",
       "Bug"
-    ]
+    ],
+    "nameKo": "아말도",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 349,
@@ -2958,7 +4002,10 @@
     "gen": 3,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "빈티나",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 350,
@@ -2966,7 +4013,10 @@
     "gen": 3,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "밀로틱",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 351,
@@ -2974,7 +4024,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "캐스퐁",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 352,
@@ -2982,7 +4035,10 @@
     "gen": 3,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "켈리몬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 353,
@@ -2990,7 +4046,10 @@
     "gen": 3,
     "types": [
       "Ghost"
-    ]
+    ],
+    "nameKo": "어둠대신",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 354,
@@ -2998,7 +4057,10 @@
     "gen": 3,
     "types": [
       "Ghost"
-    ]
+    ],
+    "nameKo": "다크펫",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 355,
@@ -3006,7 +4068,10 @@
     "gen": 3,
     "types": [
       "Ghost"
-    ]
+    ],
+    "nameKo": "해골몽",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 356,
@@ -3014,7 +4079,10 @@
     "gen": 3,
     "types": [
       "Ghost"
-    ]
+    ],
+    "nameKo": "미라몽",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 357,
@@ -3023,7 +4091,10 @@
     "types": [
       "Grass",
       "Flying"
-    ]
+    ],
+    "nameKo": "트로피우스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 358,
@@ -3031,7 +4102,10 @@
     "gen": 3,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "치렁",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 359,
@@ -3039,7 +4113,10 @@
     "gen": 3,
     "types": [
       "Dark"
-    ]
+    ],
+    "nameKo": "앱솔",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 360,
@@ -3047,7 +4124,10 @@
     "gen": 3,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "마자",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 361,
@@ -3055,7 +4135,10 @@
     "gen": 3,
     "types": [
       "Ice"
-    ]
+    ],
+    "nameKo": "눈꼬마",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 362,
@@ -3063,7 +4146,10 @@
     "gen": 3,
     "types": [
       "Ice"
-    ]
+    ],
+    "nameKo": "얼음귀신",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 363,
@@ -3072,7 +4158,10 @@
     "types": [
       "Ice",
       "Water"
-    ]
+    ],
+    "nameKo": "대굴레오",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 364,
@@ -3081,7 +4170,10 @@
     "types": [
       "Ice",
       "Water"
-    ]
+    ],
+    "nameKo": "씨레오",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 365,
@@ -3090,7 +4182,10 @@
     "types": [
       "Ice",
       "Water"
-    ]
+    ],
+    "nameKo": "씨카이저",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 366,
@@ -3098,7 +4193,10 @@
     "gen": 3,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "진주몽",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 367,
@@ -3106,7 +4204,10 @@
     "gen": 3,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "헌테일",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 368,
@@ -3114,7 +4215,10 @@
     "gen": 3,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "분홍장이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 369,
@@ -3123,7 +4227,10 @@
     "types": [
       "Water",
       "Rock"
-    ]
+    ],
+    "nameKo": "시라칸",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 370,
@@ -3131,7 +4238,10 @@
     "gen": 3,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "사랑동이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 371,
@@ -3139,7 +4249,10 @@
     "gen": 3,
     "types": [
       "Dragon"
-    ]
+    ],
+    "nameKo": "아공이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 372,
@@ -3147,7 +4260,10 @@
     "gen": 3,
     "types": [
       "Dragon"
-    ]
+    ],
+    "nameKo": "쉘곤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 373,
@@ -3156,7 +4272,10 @@
     "types": [
       "Dragon",
       "Flying"
-    ]
+    ],
+    "nameKo": "보만다",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 374,
@@ -3165,7 +4284,10 @@
     "types": [
       "Steel",
       "Psychic"
-    ]
+    ],
+    "nameKo": "메탕",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 375,
@@ -3174,7 +4296,10 @@
     "types": [
       "Steel",
       "Psychic"
-    ]
+    ],
+    "nameKo": "메탕구",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 376,
@@ -3183,7 +4308,10 @@
     "types": [
       "Steel",
       "Psychic"
-    ]
+    ],
+    "nameKo": "메타그로스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 377,
@@ -3191,7 +4319,10 @@
     "gen": 3,
     "types": [
       "Rock"
-    ]
+    ],
+    "nameKo": "레지락",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 378,
@@ -3199,7 +4330,10 @@
     "gen": 3,
     "types": [
       "Ice"
-    ]
+    ],
+    "nameKo": "레지아이스",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 379,
@@ -3207,7 +4341,10 @@
     "gen": 3,
     "types": [
       "Steel"
-    ]
+    ],
+    "nameKo": "레지스틸",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 380,
@@ -3216,7 +4353,10 @@
     "types": [
       "Dragon",
       "Psychic"
-    ]
+    ],
+    "nameKo": "라티아스",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 381,
@@ -3225,7 +4365,10 @@
     "types": [
       "Dragon",
       "Psychic"
-    ]
+    ],
+    "nameKo": "라티오스",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 382,
@@ -3233,7 +4376,10 @@
     "gen": 3,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "가이오가",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 383,
@@ -3241,7 +4387,10 @@
     "gen": 3,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "그란돈",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 384,
@@ -3250,7 +4399,10 @@
     "types": [
       "Dragon",
       "Flying"
-    ]
+    ],
+    "nameKo": "레쿠쟈",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 385,
@@ -3259,7 +4411,10 @@
     "types": [
       "Steel",
       "Psychic"
-    ]
+    ],
+    "nameKo": "지라치",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 386,
@@ -3267,7 +4422,10 @@
     "gen": 3,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "테오키스",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 387,
@@ -3275,7 +4433,10 @@
     "gen": 4,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "모부기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 388,
@@ -3283,7 +4444,10 @@
     "gen": 4,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "수풀부기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 389,
@@ -3292,7 +4456,10 @@
     "types": [
       "Grass",
       "Ground"
-    ]
+    ],
+    "nameKo": "토대부기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 390,
@@ -3300,7 +4467,10 @@
     "gen": 4,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "불꽃숭이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 391,
@@ -3309,7 +4479,10 @@
     "types": [
       "Fire",
       "Fighting"
-    ]
+    ],
+    "nameKo": "파이숭이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 392,
@@ -3318,7 +4491,10 @@
     "types": [
       "Fire",
       "Fighting"
-    ]
+    ],
+    "nameKo": "초염몽",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 393,
@@ -3326,7 +4502,10 @@
     "gen": 4,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "팽도리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 394,
@@ -3334,7 +4513,10 @@
     "gen": 4,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "팽태자",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 395,
@@ -3343,7 +4525,10 @@
     "types": [
       "Water",
       "Steel"
-    ]
+    ],
+    "nameKo": "엠페르트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 396,
@@ -3352,7 +4537,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "찌르꼬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 397,
@@ -3361,7 +4549,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "찌르버드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 398,
@@ -3370,7 +4561,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "찌르호크",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 399,
@@ -3378,7 +4572,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "비버니",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 400,
@@ -3387,7 +4584,10 @@
     "types": [
       "Normal",
       "Water"
-    ]
+    ],
+    "nameKo": "비버통",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 401,
@@ -3395,7 +4595,10 @@
     "gen": 4,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "귀뚤뚜기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 402,
@@ -3403,7 +4606,10 @@
     "gen": 4,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "귀뚤톡크",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 403,
@@ -3411,7 +4617,10 @@
     "gen": 4,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "꼬링크",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 404,
@@ -3419,7 +4628,10 @@
     "gen": 4,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "럭시오",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 405,
@@ -3427,7 +4639,10 @@
     "gen": 4,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "렌트라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 406,
@@ -3436,7 +4651,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "꼬몽울",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 407,
@@ -3445,7 +4663,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "로즈레이드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 408,
@@ -3453,7 +4674,10 @@
     "gen": 4,
     "types": [
       "Rock"
-    ]
+    ],
+    "nameKo": "두개도스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 409,
@@ -3461,7 +4685,10 @@
     "gen": 4,
     "types": [
       "Rock"
-    ]
+    ],
+    "nameKo": "램펄드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 410,
@@ -3470,7 +4697,10 @@
     "types": [
       "Rock",
       "Steel"
-    ]
+    ],
+    "nameKo": "방패톱스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 411,
@@ -3479,7 +4709,10 @@
     "types": [
       "Rock",
       "Steel"
-    ]
+    ],
+    "nameKo": "바리톱스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 412,
@@ -3487,7 +4720,10 @@
     "gen": 4,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "도롱충이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 413,
@@ -3496,7 +4732,10 @@
     "types": [
       "Bug",
       "Grass"
-    ]
+    ],
+    "nameKo": "도롱마담",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 414,
@@ -3505,7 +4744,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "나메일",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 415,
@@ -3514,7 +4756,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "세꿀버리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 416,
@@ -3523,7 +4768,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "비퀸",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 417,
@@ -3531,7 +4779,10 @@
     "gen": 4,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "파치리스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 418,
@@ -3539,7 +4790,10 @@
     "gen": 4,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "브이젤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 419,
@@ -3547,7 +4801,10 @@
     "gen": 4,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "플로젤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 420,
@@ -3555,7 +4812,10 @@
     "gen": 4,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "체리버",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 421,
@@ -3563,7 +4823,10 @@
     "gen": 4,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "체리꼬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 422,
@@ -3571,7 +4834,10 @@
     "gen": 4,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "깝질무",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 423,
@@ -3580,7 +4846,10 @@
     "types": [
       "Water",
       "Ground"
-    ]
+    ],
+    "nameKo": "트리토돈",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 424,
@@ -3588,7 +4857,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "겟핸보숭",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 425,
@@ -3597,7 +4869,10 @@
     "types": [
       "Ghost",
       "Flying"
-    ]
+    ],
+    "nameKo": "흔들풍손",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 426,
@@ -3606,7 +4881,10 @@
     "types": [
       "Ghost",
       "Flying"
-    ]
+    ],
+    "nameKo": "둥실라이드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 427,
@@ -3614,7 +4892,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "이어롤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 428,
@@ -3622,7 +4903,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "이어롭",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 429,
@@ -3630,7 +4914,10 @@
     "gen": 4,
     "types": [
       "Ghost"
-    ]
+    ],
+    "nameKo": "무우마직",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 430,
@@ -3639,7 +4926,10 @@
     "types": [
       "Dark",
       "Flying"
-    ]
+    ],
+    "nameKo": "돈크로우",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 431,
@@ -3647,7 +4937,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "나옹마",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 432,
@@ -3655,7 +4948,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "몬냥이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 433,
@@ -3663,7 +4959,10 @@
     "gen": 4,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "랑딸랑",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 434,
@@ -3672,7 +4971,10 @@
     "types": [
       "Poison",
       "Dark"
-    ]
+    ],
+    "nameKo": "스컹뿡",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 435,
@@ -3681,7 +4983,10 @@
     "types": [
       "Poison",
       "Dark"
-    ]
+    ],
+    "nameKo": "스컹탱크",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 436,
@@ -3690,7 +4995,10 @@
     "types": [
       "Steel",
       "Psychic"
-    ]
+    ],
+    "nameKo": "동미러",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 437,
@@ -3699,7 +5007,10 @@
     "types": [
       "Steel",
       "Psychic"
-    ]
+    ],
+    "nameKo": "동탁군",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 438,
@@ -3707,7 +5018,10 @@
     "gen": 4,
     "types": [
       "Rock"
-    ]
+    ],
+    "nameKo": "꼬지지",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 439,
@@ -3716,7 +5030,10 @@
     "types": [
       "Psychic",
       "Fairy"
-    ]
+    ],
+    "nameKo": "흉내내",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 440,
@@ -3724,7 +5041,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "핑복",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 441,
@@ -3733,7 +5053,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "페라페",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 442,
@@ -3742,7 +5065,10 @@
     "types": [
       "Ghost",
       "Dark"
-    ]
+    ],
+    "nameKo": "화강돌",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 443,
@@ -3751,7 +5077,10 @@
     "types": [
       "Dragon",
       "Ground"
-    ]
+    ],
+    "nameKo": "딥상어동",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 444,
@@ -3760,7 +5089,10 @@
     "types": [
       "Dragon",
       "Ground"
-    ]
+    ],
+    "nameKo": "한바이트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 445,
@@ -3769,7 +5101,10 @@
     "types": [
       "Dragon",
       "Ground"
-    ]
+    ],
+    "nameKo": "한카리아스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 446,
@@ -3777,7 +5112,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "먹고자",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 447,
@@ -3785,7 +5123,10 @@
     "gen": 4,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "리오르",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 448,
@@ -3794,7 +5135,10 @@
     "types": [
       "Fighting",
       "Steel"
-    ]
+    ],
+    "nameKo": "루카리오",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 449,
@@ -3802,7 +5146,10 @@
     "gen": 4,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "히포포타스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 450,
@@ -3810,7 +5157,10 @@
     "gen": 4,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "하마돈",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 451,
@@ -3819,7 +5169,10 @@
     "types": [
       "Poison",
       "Bug"
-    ]
+    ],
+    "nameKo": "스콜피",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 452,
@@ -3828,7 +5181,10 @@
     "types": [
       "Poison",
       "Dark"
-    ]
+    ],
+    "nameKo": "드래피온",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 453,
@@ -3837,7 +5193,10 @@
     "types": [
       "Poison",
       "Fighting"
-    ]
+    ],
+    "nameKo": "삐딱구리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 454,
@@ -3846,7 +5205,10 @@
     "types": [
       "Poison",
       "Fighting"
-    ]
+    ],
+    "nameKo": "독개굴",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 455,
@@ -3854,7 +5216,10 @@
     "gen": 4,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "무스틈니",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 456,
@@ -3862,7 +5227,10 @@
     "gen": 4,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "형광어",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 457,
@@ -3870,7 +5238,10 @@
     "gen": 4,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "네오라이트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 458,
@@ -3879,7 +5250,10 @@
     "types": [
       "Water",
       "Flying"
-    ]
+    ],
+    "nameKo": "타만타",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 459,
@@ -3888,7 +5262,10 @@
     "types": [
       "Grass",
       "Ice"
-    ]
+    ],
+    "nameKo": "눈쓰개",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 460,
@@ -3897,7 +5274,10 @@
     "types": [
       "Grass",
       "Ice"
-    ]
+    ],
+    "nameKo": "눈설왕",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 461,
@@ -3906,7 +5286,10 @@
     "types": [
       "Dark",
       "Ice"
-    ]
+    ],
+    "nameKo": "포푸니라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 462,
@@ -3915,7 +5298,10 @@
     "types": [
       "Electric",
       "Steel"
-    ]
+    ],
+    "nameKo": "자포코일",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 463,
@@ -3923,7 +5309,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "내룸벨트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 464,
@@ -3932,7 +5321,10 @@
     "types": [
       "Ground",
       "Rock"
-    ]
+    ],
+    "nameKo": "거대코뿌리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 465,
@@ -3940,7 +5332,10 @@
     "gen": 4,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "덩쿠림보",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 466,
@@ -3948,7 +5343,10 @@
     "gen": 4,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "에레키블",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 467,
@@ -3956,7 +5354,10 @@
     "gen": 4,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "마그마번",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 468,
@@ -3965,7 +5366,10 @@
     "types": [
       "Fairy",
       "Flying"
-    ]
+    ],
+    "nameKo": "토게키스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 469,
@@ -3974,7 +5378,10 @@
     "types": [
       "Bug",
       "Flying"
-    ]
+    ],
+    "nameKo": "메가자리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 470,
@@ -3982,7 +5389,10 @@
     "gen": 4,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "리피아",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 471,
@@ -3990,7 +5400,10 @@
     "gen": 4,
     "types": [
       "Ice"
-    ]
+    ],
+    "nameKo": "글레이시아",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 472,
@@ -3999,7 +5412,10 @@
     "types": [
       "Ground",
       "Flying"
-    ]
+    ],
+    "nameKo": "글라이온",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 473,
@@ -4008,7 +5424,10 @@
     "types": [
       "Ice",
       "Ground"
-    ]
+    ],
+    "nameKo": "맘모꾸리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 474,
@@ -4016,7 +5435,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "폴리곤Z",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 475,
@@ -4025,7 +5447,10 @@
     "types": [
       "Psychic",
       "Fighting"
-    ]
+    ],
+    "nameKo": "엘레이드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 476,
@@ -4034,7 +5459,10 @@
     "types": [
       "Rock",
       "Steel"
-    ]
+    ],
+    "nameKo": "대코파스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 477,
@@ -4042,7 +5470,10 @@
     "gen": 4,
     "types": [
       "Ghost"
-    ]
+    ],
+    "nameKo": "야느와르몽",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 478,
@@ -4051,7 +5482,10 @@
     "types": [
       "Ice",
       "Ghost"
-    ]
+    ],
+    "nameKo": "눈여아",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 479,
@@ -4060,7 +5494,10 @@
     "types": [
       "Electric",
       "Ghost"
-    ]
+    ],
+    "nameKo": "로토무",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 480,
@@ -4068,7 +5505,10 @@
     "gen": 4,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "유크시",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 481,
@@ -4076,7 +5516,10 @@
     "gen": 4,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "엠라이트",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 482,
@@ -4084,7 +5527,10 @@
     "gen": 4,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "아그놈",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 483,
@@ -4093,7 +5539,10 @@
     "types": [
       "Steel",
       "Dragon"
-    ]
+    ],
+    "nameKo": "디아루가",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 484,
@@ -4102,7 +5551,10 @@
     "types": [
       "Water",
       "Dragon"
-    ]
+    ],
+    "nameKo": "펄기아",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 485,
@@ -4111,7 +5563,10 @@
     "types": [
       "Fire",
       "Steel"
-    ]
+    ],
+    "nameKo": "히드런",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 486,
@@ -4119,7 +5574,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "레지기가스",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 487,
@@ -4128,7 +5586,10 @@
     "types": [
       "Ghost",
       "Dragon"
-    ]
+    ],
+    "nameKo": "기라티나",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 488,
@@ -4136,7 +5597,10 @@
     "gen": 4,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "크레세리아",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 489,
@@ -4144,7 +5608,10 @@
     "gen": 4,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "피오네",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 490,
@@ -4152,7 +5619,10 @@
     "gen": 4,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "마나피",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 491,
@@ -4160,7 +5630,10 @@
     "gen": 4,
     "types": [
       "Dark"
-    ]
+    ],
+    "nameKo": "다크라이",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 492,
@@ -4168,7 +5641,10 @@
     "gen": 4,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "쉐이미",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 493,
@@ -4176,7 +5652,10 @@
     "gen": 4,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "아르세우스",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 494,
@@ -4185,7 +5664,10 @@
     "types": [
       "Psychic",
       "Fire"
-    ]
+    ],
+    "nameKo": "비크티니",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 495,
@@ -4193,7 +5675,10 @@
     "gen": 5,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "주리비얀",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 496,
@@ -4201,7 +5686,10 @@
     "gen": 5,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "샤비",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 497,
@@ -4209,7 +5697,10 @@
     "gen": 5,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "샤로다",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 498,
@@ -4217,7 +5708,10 @@
     "gen": 5,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "뚜꾸리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 499,
@@ -4226,7 +5720,10 @@
     "types": [
       "Fire",
       "Fighting"
-    ]
+    ],
+    "nameKo": "차오꿀",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 500,
@@ -4235,7 +5732,10 @@
     "types": [
       "Fire",
       "Fighting"
-    ]
+    ],
+    "nameKo": "염무왕",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 501,
@@ -4243,7 +5743,10 @@
     "gen": 5,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "수댕이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 502,
@@ -4251,7 +5754,10 @@
     "gen": 5,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "쌍검자비",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 503,
@@ -4259,7 +5765,10 @@
     "gen": 5,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "대검귀",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 504,
@@ -4267,7 +5776,10 @@
     "gen": 5,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "보르쥐",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 505,
@@ -4275,7 +5787,10 @@
     "gen": 5,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "보르그",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 506,
@@ -4283,7 +5798,10 @@
     "gen": 5,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "요테리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 507,
@@ -4291,7 +5809,10 @@
     "gen": 5,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "하데리어",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 508,
@@ -4299,7 +5820,10 @@
     "gen": 5,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "바랜드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 509,
@@ -4307,7 +5831,10 @@
     "gen": 5,
     "types": [
       "Dark"
-    ]
+    ],
+    "nameKo": "쌔비냥",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 510,
@@ -4315,7 +5842,10 @@
     "gen": 5,
     "types": [
       "Dark"
-    ]
+    ],
+    "nameKo": "레파르다스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 511,
@@ -4323,7 +5853,10 @@
     "gen": 5,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "야나프",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 512,
@@ -4331,7 +5864,10 @@
     "gen": 5,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "야나키",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 513,
@@ -4339,7 +5875,10 @@
     "gen": 5,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "바오프",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 514,
@@ -4347,7 +5886,10 @@
     "gen": 5,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "바오키",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 515,
@@ -4355,7 +5897,10 @@
     "gen": 5,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "앗차프",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 516,
@@ -4363,7 +5908,10 @@
     "gen": 5,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "앗차키",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 517,
@@ -4371,7 +5919,10 @@
     "gen": 5,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "몽나",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 518,
@@ -4379,7 +5930,10 @@
     "gen": 5,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "몽얌나",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 519,
@@ -4388,7 +5942,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "콩둘기",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 520,
@@ -4397,7 +5954,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "유토브",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 521,
@@ -4406,7 +5966,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "켄호로우",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 522,
@@ -4414,7 +5977,10 @@
     "gen": 5,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "줄뮤마",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 523,
@@ -4422,7 +5988,10 @@
     "gen": 5,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "제브라이카",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 524,
@@ -4430,7 +5999,10 @@
     "gen": 5,
     "types": [
       "Rock"
-    ]
+    ],
+    "nameKo": "단굴",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 525,
@@ -4438,7 +6010,10 @@
     "gen": 5,
     "types": [
       "Rock"
-    ]
+    ],
+    "nameKo": "암트르",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 526,
@@ -4446,7 +6021,10 @@
     "gen": 5,
     "types": [
       "Rock"
-    ]
+    ],
+    "nameKo": "기가이어스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 527,
@@ -4455,7 +6033,10 @@
     "types": [
       "Psychic",
       "Flying"
-    ]
+    ],
+    "nameKo": "또르박쥐",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 528,
@@ -4464,7 +6045,10 @@
     "types": [
       "Psychic",
       "Flying"
-    ]
+    ],
+    "nameKo": "맘박쥐",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 529,
@@ -4472,7 +6056,10 @@
     "gen": 5,
     "types": [
       "Ground"
-    ]
+    ],
+    "nameKo": "두더류",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 530,
@@ -4481,7 +6068,10 @@
     "types": [
       "Ground",
       "Steel"
-    ]
+    ],
+    "nameKo": "몰드류",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 531,
@@ -4489,7 +6079,10 @@
     "gen": 5,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "다부니",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 532,
@@ -4497,7 +6090,10 @@
     "gen": 5,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "으랏차",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 533,
@@ -4505,7 +6101,10 @@
     "gen": 5,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "토쇠골",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 534,
@@ -4513,7 +6112,10 @@
     "gen": 5,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "노보청",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 535,
@@ -4521,7 +6123,10 @@
     "gen": 5,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "동챙이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 536,
@@ -4530,7 +6135,10 @@
     "types": [
       "Water",
       "Ground"
-    ]
+    ],
+    "nameKo": "두까비",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 537,
@@ -4539,7 +6147,10 @@
     "types": [
       "Water",
       "Ground"
-    ]
+    ],
+    "nameKo": "두빅굴",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 538,
@@ -4547,7 +6158,10 @@
     "gen": 5,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "던지미",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 539,
@@ -4555,7 +6169,10 @@
     "gen": 5,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "타격귀",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 540,
@@ -4564,7 +6181,10 @@
     "types": [
       "Bug",
       "Grass"
-    ]
+    ],
+    "nameKo": "두르보",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 541,
@@ -4573,7 +6193,10 @@
     "types": [
       "Bug",
       "Grass"
-    ]
+    ],
+    "nameKo": "두르쿤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 542,
@@ -4582,7 +6205,10 @@
     "types": [
       "Bug",
       "Grass"
-    ]
+    ],
+    "nameKo": "모아머",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 543,
@@ -4591,7 +6217,10 @@
     "types": [
       "Bug",
       "Poison"
-    ]
+    ],
+    "nameKo": "마디네",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 544,
@@ -4600,7 +6229,10 @@
     "types": [
       "Bug",
       "Poison"
-    ]
+    ],
+    "nameKo": "휠구",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 545,
@@ -4609,7 +6241,10 @@
     "types": [
       "Bug",
       "Poison"
-    ]
+    ],
+    "nameKo": "펜드라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 546,
@@ -4618,7 +6253,10 @@
     "types": [
       "Grass",
       "Fairy"
-    ]
+    ],
+    "nameKo": "소미안",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 547,
@@ -4627,7 +6265,10 @@
     "types": [
       "Grass",
       "Fairy"
-    ]
+    ],
+    "nameKo": "엘풍",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 548,
@@ -4635,7 +6276,10 @@
     "gen": 5,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "치릴리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 549,
@@ -4643,7 +6287,10 @@
     "gen": 5,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "드레디어",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 550,
@@ -4651,7 +6298,10 @@
     "gen": 5,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "배쓰나이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 551,
@@ -4660,7 +6310,10 @@
     "types": [
       "Ground",
       "Dark"
-    ]
+    ],
+    "nameKo": "깜눈크",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 552,
@@ -4669,7 +6322,10 @@
     "types": [
       "Ground",
       "Dark"
-    ]
+    ],
+    "nameKo": "악비르",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 553,
@@ -4678,7 +6334,10 @@
     "types": [
       "Ground",
       "Dark"
-    ]
+    ],
+    "nameKo": "악비아르",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 554,
@@ -4686,7 +6345,10 @@
     "gen": 5,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "달막화",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 555,
@@ -4694,7 +6356,10 @@
     "gen": 5,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "불비달마",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 556,
@@ -4702,7 +6367,10 @@
     "gen": 5,
     "types": [
       "Grass"
-    ]
+    ],
+    "nameKo": "마라카치",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 557,
@@ -4711,7 +6379,10 @@
     "types": [
       "Bug",
       "Rock"
-    ]
+    ],
+    "nameKo": "돌살이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 558,
@@ -4720,7 +6391,10 @@
     "types": [
       "Bug",
       "Rock"
-    ]
+    ],
+    "nameKo": "암팰리스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 559,
@@ -4729,7 +6403,10 @@
     "types": [
       "Dark",
       "Fighting"
-    ]
+    ],
+    "nameKo": "곤율랭",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 560,
@@ -4738,7 +6415,10 @@
     "types": [
       "Dark",
       "Fighting"
-    ]
+    ],
+    "nameKo": "곤율거니",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 561,
@@ -4747,7 +6427,10 @@
     "types": [
       "Psychic",
       "Flying"
-    ]
+    ],
+    "nameKo": "심보러",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 562,
@@ -4755,7 +6438,10 @@
     "gen": 5,
     "types": [
       "Ghost"
-    ]
+    ],
+    "nameKo": "데스마스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 563,
@@ -4763,7 +6449,10 @@
     "gen": 5,
     "types": [
       "Ghost"
-    ]
+    ],
+    "nameKo": "데스니칸",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 564,
@@ -4772,7 +6461,10 @@
     "types": [
       "Water",
       "Rock"
-    ]
+    ],
+    "nameKo": "프로토가",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 565,
@@ -4781,7 +6473,10 @@
     "types": [
       "Water",
       "Rock"
-    ]
+    ],
+    "nameKo": "늑골라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 566,
@@ -4790,7 +6485,10 @@
     "types": [
       "Rock",
       "Flying"
-    ]
+    ],
+    "nameKo": "아켄",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 567,
@@ -4799,7 +6497,10 @@
     "types": [
       "Rock",
       "Flying"
-    ]
+    ],
+    "nameKo": "아케오스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 568,
@@ -4807,7 +6508,10 @@
     "gen": 5,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "깨봉이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 569,
@@ -4815,7 +6519,10 @@
     "gen": 5,
     "types": [
       "Poison"
-    ]
+    ],
+    "nameKo": "더스트나",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 570,
@@ -4823,7 +6530,10 @@
     "gen": 5,
     "types": [
       "Dark"
-    ]
+    ],
+    "nameKo": "조로아",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 571,
@@ -4831,7 +6541,10 @@
     "gen": 5,
     "types": [
       "Dark"
-    ]
+    ],
+    "nameKo": "조로아크",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 572,
@@ -4839,7 +6552,10 @@
     "gen": 5,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "치라미",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 573,
@@ -4847,7 +6563,10 @@
     "gen": 5,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "치라치노",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 574,
@@ -4855,7 +6574,10 @@
     "gen": 5,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "고디탱",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 575,
@@ -4863,7 +6585,10 @@
     "gen": 5,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "고디보미",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 576,
@@ -4871,7 +6596,10 @@
     "gen": 5,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "고디모아젤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 577,
@@ -4879,7 +6607,10 @@
     "gen": 5,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "유니란",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 578,
@@ -4887,7 +6618,10 @@
     "gen": 5,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "듀란",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 579,
@@ -4895,7 +6629,10 @@
     "gen": 5,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "란쿨루스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 580,
@@ -4904,7 +6641,10 @@
     "types": [
       "Water",
       "Flying"
-    ]
+    ],
+    "nameKo": "꼬지보리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 581,
@@ -4913,7 +6653,10 @@
     "types": [
       "Water",
       "Flying"
-    ]
+    ],
+    "nameKo": "스완나",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 582,
@@ -4921,7 +6664,10 @@
     "gen": 5,
     "types": [
       "Ice"
-    ]
+    ],
+    "nameKo": "바닐프티",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 583,
@@ -4929,7 +6675,10 @@
     "gen": 5,
     "types": [
       "Ice"
-    ]
+    ],
+    "nameKo": "바닐리치",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 584,
@@ -4937,7 +6686,10 @@
     "gen": 5,
     "types": [
       "Ice"
-    ]
+    ],
+    "nameKo": "배바닐라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 585,
@@ -4946,7 +6698,10 @@
     "types": [
       "Normal",
       "Grass"
-    ]
+    ],
+    "nameKo": "사철록",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 586,
@@ -4955,7 +6710,10 @@
     "types": [
       "Normal",
       "Grass"
-    ]
+    ],
+    "nameKo": "바라철록",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 587,
@@ -4964,7 +6722,10 @@
     "types": [
       "Electric",
       "Flying"
-    ]
+    ],
+    "nameKo": "에몽가",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 588,
@@ -4972,7 +6733,10 @@
     "gen": 5,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "딱정곤",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 589,
@@ -4981,7 +6745,10 @@
     "types": [
       "Bug",
       "Steel"
-    ]
+    ],
+    "nameKo": "슈바르고",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 590,
@@ -4990,7 +6757,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "깜놀버슬",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 591,
@@ -4999,7 +6769,10 @@
     "types": [
       "Grass",
       "Poison"
-    ]
+    ],
+    "nameKo": "뽀록나",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 592,
@@ -5008,7 +6781,10 @@
     "types": [
       "Water",
       "Ghost"
-    ]
+    ],
+    "nameKo": "탱그릴",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 593,
@@ -5017,7 +6793,10 @@
     "types": [
       "Water",
       "Ghost"
-    ]
+    ],
+    "nameKo": "탱탱겔",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 594,
@@ -5025,7 +6804,10 @@
     "gen": 5,
     "types": [
       "Water"
-    ]
+    ],
+    "nameKo": "맘복치",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 595,
@@ -5034,7 +6816,10 @@
     "types": [
       "Bug",
       "Electric"
-    ]
+    ],
+    "nameKo": "파쪼옥",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 596,
@@ -5043,7 +6828,10 @@
     "types": [
       "Bug",
       "Electric"
-    ]
+    ],
+    "nameKo": "전툴라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 597,
@@ -5052,7 +6840,10 @@
     "types": [
       "Grass",
       "Steel"
-    ]
+    ],
+    "nameKo": "철시드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 598,
@@ -5061,7 +6852,10 @@
     "types": [
       "Grass",
       "Steel"
-    ]
+    ],
+    "nameKo": "너트령",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 599,
@@ -5069,7 +6863,10 @@
     "gen": 5,
     "types": [
       "Steel"
-    ]
+    ],
+    "nameKo": "기어르",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 600,
@@ -5077,7 +6874,10 @@
     "gen": 5,
     "types": [
       "Steel"
-    ]
+    ],
+    "nameKo": "기기어르",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 601,
@@ -5085,7 +6885,10 @@
     "gen": 5,
     "types": [
       "Steel"
-    ]
+    ],
+    "nameKo": "기기기어르",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 602,
@@ -5093,7 +6896,10 @@
     "gen": 5,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "저리어",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 603,
@@ -5101,7 +6907,10 @@
     "gen": 5,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "저리릴",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 604,
@@ -5109,7 +6918,10 @@
     "gen": 5,
     "types": [
       "Electric"
-    ]
+    ],
+    "nameKo": "저리더프",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 605,
@@ -5117,7 +6929,10 @@
     "gen": 5,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "리그레",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 606,
@@ -5125,7 +6940,10 @@
     "gen": 5,
     "types": [
       "Psychic"
-    ]
+    ],
+    "nameKo": "벰크",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 607,
@@ -5134,7 +6952,10 @@
     "types": [
       "Ghost",
       "Fire"
-    ]
+    ],
+    "nameKo": "불켜미",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 608,
@@ -5143,7 +6964,10 @@
     "types": [
       "Ghost",
       "Fire"
-    ]
+    ],
+    "nameKo": "램프라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 609,
@@ -5152,7 +6976,10 @@
     "types": [
       "Ghost",
       "Fire"
-    ]
+    ],
+    "nameKo": "샹델라",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 610,
@@ -5160,7 +6987,10 @@
     "gen": 5,
     "types": [
       "Dragon"
-    ]
+    ],
+    "nameKo": "터검니",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 611,
@@ -5168,7 +6998,10 @@
     "gen": 5,
     "types": [
       "Dragon"
-    ]
+    ],
+    "nameKo": "액슨도",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 612,
@@ -5176,7 +7009,10 @@
     "gen": 5,
     "types": [
       "Dragon"
-    ]
+    ],
+    "nameKo": "액스라이즈",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 613,
@@ -5184,7 +7020,10 @@
     "gen": 5,
     "types": [
       "Ice"
-    ]
+    ],
+    "nameKo": "코고미",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 614,
@@ -5192,7 +7031,10 @@
     "gen": 5,
     "types": [
       "Ice"
-    ]
+    ],
+    "nameKo": "툰베어",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 615,
@@ -5200,7 +7042,10 @@
     "gen": 5,
     "types": [
       "Ice"
-    ]
+    ],
+    "nameKo": "프리지오",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 616,
@@ -5208,7 +7053,10 @@
     "gen": 5,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "쪼마리",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 617,
@@ -5216,7 +7064,10 @@
     "gen": 5,
     "types": [
       "Bug"
-    ]
+    ],
+    "nameKo": "어지리더",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 618,
@@ -5225,7 +7076,10 @@
     "types": [
       "Ground",
       "Electric"
-    ]
+    ],
+    "nameKo": "메더",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 619,
@@ -5233,7 +7087,10 @@
     "gen": 5,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "비조푸",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 620,
@@ -5241,7 +7098,10 @@
     "gen": 5,
     "types": [
       "Fighting"
-    ]
+    ],
+    "nameKo": "비조도",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 621,
@@ -5249,7 +7109,10 @@
     "gen": 5,
     "types": [
       "Dragon"
-    ]
+    ],
+    "nameKo": "크리만",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 622,
@@ -5258,7 +7121,10 @@
     "types": [
       "Ground",
       "Ghost"
-    ]
+    ],
+    "nameKo": "골비람",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 623,
@@ -5267,7 +7133,10 @@
     "types": [
       "Ground",
       "Ghost"
-    ]
+    ],
+    "nameKo": "골루그",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 624,
@@ -5276,7 +7145,10 @@
     "types": [
       "Dark",
       "Steel"
-    ]
+    ],
+    "nameKo": "자망칼",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 625,
@@ -5285,7 +7157,10 @@
     "types": [
       "Dark",
       "Steel"
-    ]
+    ],
+    "nameKo": "절각참",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 626,
@@ -5293,7 +7168,10 @@
     "gen": 5,
     "types": [
       "Normal"
-    ]
+    ],
+    "nameKo": "버프론",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 627,
@@ -5302,7 +7180,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "수리둥보",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 628,
@@ -5311,7 +7192,10 @@
     "types": [
       "Normal",
       "Flying"
-    ]
+    ],
+    "nameKo": "워글",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 629,
@@ -5320,7 +7204,10 @@
     "types": [
       "Dark",
       "Flying"
-    ]
+    ],
+    "nameKo": "벌차이",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 630,
@@ -5329,7 +7216,10 @@
     "types": [
       "Dark",
       "Flying"
-    ]
+    ],
+    "nameKo": "버랜지나",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 631,
@@ -5337,7 +7227,10 @@
     "gen": 5,
     "types": [
       "Fire"
-    ]
+    ],
+    "nameKo": "앤티골",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 632,
@@ -5346,7 +7239,10 @@
     "types": [
       "Bug",
       "Steel"
-    ]
+    ],
+    "nameKo": "아이앤트",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 633,
@@ -5355,7 +7251,10 @@
     "types": [
       "Dark",
       "Dragon"
-    ]
+    ],
+    "nameKo": "모노두",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 634,
@@ -5364,7 +7263,10 @@
     "types": [
       "Dark",
       "Dragon"
-    ]
+    ],
+    "nameKo": "디헤드",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 635,
@@ -5373,7 +7275,10 @@
     "types": [
       "Dark",
       "Dragon"
-    ]
+    ],
+    "nameKo": "삼삼드래",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 636,
@@ -5382,7 +7287,10 @@
     "types": [
       "Bug",
       "Fire"
-    ]
+    ],
+    "nameKo": "활화르바",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 637,
@@ -5391,7 +7299,10 @@
     "types": [
       "Bug",
       "Fire"
-    ]
+    ],
+    "nameKo": "불카모스",
+    "isLegendary": false,
+    "isMythical": false
   },
   {
     "id": 638,
@@ -5400,7 +7311,10 @@
     "types": [
       "Steel",
       "Fighting"
-    ]
+    ],
+    "nameKo": "코바르온",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 639,
@@ -5409,7 +7323,10 @@
     "types": [
       "Rock",
       "Fighting"
-    ]
+    ],
+    "nameKo": "테라키온",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 640,
@@ -5418,7 +7335,10 @@
     "types": [
       "Grass",
       "Fighting"
-    ]
+    ],
+    "nameKo": "비리디온",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 641,
@@ -5426,7 +7346,10 @@
     "gen": 5,
     "types": [
       "Flying"
-    ]
+    ],
+    "nameKo": "토네로스",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 642,
@@ -5435,7 +7358,10 @@
     "types": [
       "Electric",
       "Flying"
-    ]
+    ],
+    "nameKo": "볼트로스",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 643,
@@ -5444,7 +7370,10 @@
     "types": [
       "Dragon",
       "Fire"
-    ]
+    ],
+    "nameKo": "레시라무",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 644,
@@ -5453,7 +7382,10 @@
     "types": [
       "Dragon",
       "Electric"
-    ]
+    ],
+    "nameKo": "제크로무",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 645,
@@ -5462,7 +7394,10 @@
     "types": [
       "Ground",
       "Flying"
-    ]
+    ],
+    "nameKo": "랜드로스",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 646,
@@ -5471,7 +7406,10 @@
     "types": [
       "Dragon",
       "Ice"
-    ]
+    ],
+    "nameKo": "큐레무",
+    "isLegendary": true,
+    "isMythical": false
   },
   {
     "id": 647,
@@ -5480,7 +7418,10 @@
     "types": [
       "Water",
       "Fighting"
-    ]
+    ],
+    "nameKo": "케르디오",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 648,
@@ -5489,7 +7430,10 @@
     "types": [
       "Normal",
       "Psychic"
-    ]
+    ],
+    "nameKo": "메로엣타",
+    "isLegendary": false,
+    "isMythical": true
   },
   {
     "id": 649,
@@ -5498,6 +7442,9 @@
     "types": [
       "Bug",
       "Steel"
-    ]
+    ],
+    "nameKo": "게노세크트",
+    "isLegendary": false,
+    "isMythical": true
   }
 ]

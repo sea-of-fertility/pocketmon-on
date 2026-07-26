@@ -13,8 +13,11 @@ import Foundation
 struct PokemonData: Codable, Identifiable {
     let id: Int
     let name: String
+    let nameKo: String
     let gen: Int
     let types: [String]
+    let isLegendary: Bool
+    let isMythical: Bool
 
     /// 도감 번호 문자열 (#025)
     var displayNumber: String {
@@ -111,12 +114,13 @@ final class PokemonDataManager {
         }
     }
 
-    /// 이름/번호 검색 (전체 세대 대상, 세대/타입 필터 무시)
+    /// 이름(영문/한글)/번호 검색 (전체 세대 대상, 세대/타입 필터 무시)
     func search(query: String) -> [PokemonData] {
         let q = query.lowercased().trimmingCharacters(in: .whitespaces)
         guard !q.isEmpty else { return [] }
         return allPokemon.filter { pokemon in
             pokemon.name.lowercased().contains(q)
+            || pokemon.nameKo.contains(q)
             || String(pokemon.id).contains(q)
             || pokemon.displayNumber.contains(q)
         }
