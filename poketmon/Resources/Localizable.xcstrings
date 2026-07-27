@@ -673,6 +673,22 @@
         }
       }
     },
+    "Mega": {
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "メガ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "메가"
+          }
+        }
+      }
+    },
     "Moderate": {
       "localizations": {
         "ko": {

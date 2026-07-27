@@ -75,6 +75,12 @@ struct PokemonData: Codable, Identifiable {
     let isLegendary: Bool
     let isMythical: Bool
 
+    /// 메가 진화 폼의 원본 도감 번호 (기본 폼은 nil)
+    let baseID: Int?
+
+    /// 메가 진화 폼 여부
+    var isMega: Bool { baseID != nil }
+
     /// 시스템 언어에 맞는 표시 이름 (한국어/일본어 외에는 영어)
     var localizedName: String {
         switch AppLanguage.code {
@@ -84,9 +90,9 @@ struct PokemonData: Codable, Identifiable {
         }
     }
 
-    /// 도감 번호 문자열 (#025)
+    /// 도감 번호 문자열 (#025) — 메가 폼은 원본 도감 번호를 표시
     var displayNumber: String {
-        String(format: "#%03d", id)
+        String(format: "#%03d", baseID ?? id)
     }
 
     /// 4자리 ID 문자열 (0025) — 리소스 경로용
@@ -118,6 +124,12 @@ final class PokemonDataManager {
 
     /// 기본 포켓몬 ID (피카츄)
     static let defaultPokemonID = 25
+
+    /// 메가 진화 탭의 gen 값 — 세대 탭(1~9)과 겹치지 않는 별도 값
+    ///
+    /// 메가는 종의 희귀도가 아니라 형태(form) 축이라 전설/환상 필터와 같은
+    /// 레벨에 두면 필터 조합의 의미가 흐려진다. 별도 탭으로 분리했다.
+    static let megaGen = 100
 
     init() {
         // pokemon_data.json 로드 (여러 경로 시도)

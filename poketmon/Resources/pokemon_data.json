@@ -12824,5 +12824,362 @@
     ],
     "isLegendary": false,
     "isMythical": true
+  },
+  {
+    "id": 20006,
+    "name": "Mega Charizard X",
+    "nameKo": "메가리자몽 X",
+    "nameJa": "メガリザードン X",
+    "gen": 100,
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 6
+  },
+  {
+    "id": 20065,
+    "name": "Mega Alakazam",
+    "nameKo": "메가후딘",
+    "nameJa": "メガフーディン",
+    "gen": 100,
+    "types": [
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 65
+  },
+  {
+    "id": 20094,
+    "name": "Mega Gengar",
+    "nameKo": "메가팬텀",
+    "nameJa": "メガゲンガー",
+    "gen": 100,
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 94
+  },
+  {
+    "id": 20115,
+    "name": "Mega Kangaskhan",
+    "nameKo": "메가캥카",
+    "nameJa": "メガガルーラ",
+    "gen": 100,
+    "types": [
+      "Normal"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 115
+  },
+  {
+    "id": 20142,
+    "name": "Mega Aerodactyl",
+    "nameKo": "메가프테라",
+    "nameJa": "メガプテラ",
+    "gen": 100,
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 142
+  },
+  {
+    "id": 20150,
+    "name": "Mega Mewtwo Y",
+    "nameKo": "메가뮤츠 Y",
+    "nameJa": "メガミュウツー Y",
+    "gen": 100,
+    "types": [
+      "Psychic"
+    ],
+    "isLegendary": true,
+    "isMythical": false,
+    "baseID": 150
+  },
+  {
+    "id": 20208,
+    "name": "Mega Steelix",
+    "nameKo": "메가강철톤",
+    "nameJa": "メガハガネール",
+    "gen": 100,
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 208
+  },
+  {
+    "id": 20229,
+    "name": "Mega Houndoom",
+    "nameKo": "메가헬가",
+    "nameJa": "メガヘルガー",
+    "gen": 100,
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 229
+  },
+  {
+    "id": 20248,
+    "name": "Mega Tyranitar",
+    "nameKo": "메가마기라스",
+    "nameJa": "メガバンギラス",
+    "gen": 100,
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 248
+  },
+  {
+    "id": 20282,
+    "name": "Mega Gardevoir",
+    "nameKo": "메가가디안",
+    "nameJa": "メガサーナイト",
+    "gen": 100,
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 282
+  },
+  {
+    "id": 20302,
+    "name": "Mega Sableye",
+    "nameKo": "메가깜까미",
+    "nameJa": "メガヤミラミ",
+    "gen": 100,
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 302
+  },
+  {
+    "id": 20303,
+    "name": "Mega Mawile",
+    "nameKo": "메가입치트",
+    "nameJa": "メガクチート",
+    "gen": 100,
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 303
+  },
+  {
+    "id": 20308,
+    "name": "Mega Medicham",
+    "nameKo": "메가요가램",
+    "nameJa": "メガチャーレム",
+    "gen": 100,
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 308
+  },
+  {
+    "id": 20310,
+    "name": "Mega Manectric",
+    "nameKo": "메가썬더볼트",
+    "nameJa": "メガライボルト",
+    "gen": 100,
+    "types": [
+      "Electric"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 310
+  },
+  {
+    "id": 20323,
+    "name": "Mega Camerupt",
+    "nameKo": "메가폭타",
+    "nameJa": "メガバクーダ",
+    "gen": 100,
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 323
+  },
+  {
+    "id": 20334,
+    "name": "Mega Altaria",
+    "nameKo": "메가파비코리",
+    "nameJa": "メガチルタリス",
+    "gen": 100,
+    "types": [
+      "Dragon",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 334
+  },
+  {
+    "id": 20354,
+    "name": "Mega Banette",
+    "nameKo": "메가다크펫",
+    "nameJa": "メガジュペッタ",
+    "gen": 100,
+    "types": [
+      "Ghost"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 354
+  },
+  {
+    "id": 20359,
+    "name": "Mega Absol",
+    "nameKo": "메가앱솔",
+    "nameJa": "メガアブソル",
+    "gen": 100,
+    "types": [
+      "Dark"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 359
+  },
+  {
+    "id": 20362,
+    "name": "Mega Glalie",
+    "nameKo": "메가얼음귀신",
+    "nameJa": "メガオニゴーリ",
+    "gen": 100,
+    "types": [
+      "Ice"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 362
+  },
+  {
+    "id": 20380,
+    "name": "Mega Latias",
+    "nameKo": "메가라티아스",
+    "nameJa": "メガラティアス",
+    "gen": 100,
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "isLegendary": true,
+    "isMythical": false,
+    "baseID": 380
+  },
+  {
+    "id": 20381,
+    "name": "Mega Latios",
+    "nameKo": "메가라티오스",
+    "nameJa": "メガラティオス",
+    "gen": 100,
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "isLegendary": true,
+    "isMythical": false,
+    "baseID": 381
+  },
+  {
+    "id": 20384,
+    "name": "Mega Rayquaza",
+    "nameKo": "메가레쿠쟈",
+    "nameJa": "メガレックウザ",
+    "gen": 100,
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "isLegendary": true,
+    "isMythical": false,
+    "baseID": 384
+  },
+  {
+    "id": 20428,
+    "name": "Mega Lopunny",
+    "nameKo": "메가이어롭",
+    "nameJa": "メガミミロップ",
+    "gen": 100,
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 428
+  },
+  {
+    "id": 20448,
+    "name": "Mega Lucario",
+    "nameKo": "메가루카리오",
+    "nameJa": "メガルカリオ",
+    "gen": 100,
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 448
+  },
+  {
+    "id": 20475,
+    "name": "Mega Gallade",
+    "nameKo": "메가엘레이드",
+    "nameJa": "メガエルレイド",
+    "gen": 100,
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "isLegendary": false,
+    "isMythical": false,
+    "baseID": 475
+  },
+  {
+    "id": 20719,
+    "name": "Mega Diancie",
+    "nameKo": "메가디안시",
+    "nameJa": "メガディアンシー",
+    "gen": 100,
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "isLegendary": false,
+    "isMythical": true,
+    "baseID": 719
   }
 ]

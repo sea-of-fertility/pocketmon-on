@@ -231,10 +231,42 @@ struct PokemonSelectorView: View {
                 ForEach(6...9, id: \.self) { gen in
                     genTabButton(gen: gen)
                 }
+                megaTabButton
             }
         }
         .padding(.horizontal, 16)
         .padding(.bottom, 8)
+    }
+
+    /// 메가 진화 탭 — 세대가 아니라 형태 축이라 별도 탭으로 분리
+    private var megaTabButton: some View {
+        let megaGen = PokemonDataManager.megaGen
+        let isActive = selectedGen == megaGen
+        let count = dataManager.pokemon(gen: megaGen).count
+
+        return Button {
+            selectedGen = megaGen
+        } label: {
+            VStack(spacing: 2) {
+                Text("Mega")
+                    .font(.system(size: 12, weight: .medium))
+                Text("\(count) species")
+                    .font(.system(size: 10))
+                    .foregroundStyle(.secondary)
+            }
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 6)
+            .background(
+                isActive ? Color.accentColor.opacity(0.15) : Color.primary.opacity(0.04),
+                in: RoundedRectangle(cornerRadius: 6)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 6)
+                    .stroke(isActive ? Color.accentColor.opacity(0.4) : .clear, lineWidth: 1)
+            )
+            .foregroundStyle(isActive ? Color.accentColor : .secondary)
+        }
+        .buttonStyle(.plain)
     }
 
     private func genTabButton(gen: Int) -> some View {
