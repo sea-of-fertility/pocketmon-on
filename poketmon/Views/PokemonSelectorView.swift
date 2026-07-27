@@ -168,7 +168,9 @@ struct PokemonSelectorView: View {
     @State private var activeTypes: Set<String> = []
     @State private var showLegendary = false
     @State private var showMythical = false
-    @State private var selectedPokemonID: Int?
+
+    /// 창을 연 시점의 포켓몬 — Revert로 되돌릴 대상
+    @State private var originalPokemonID: Int = PetManager.shared.currentPokemonID
 
     private let dataManager = PetManager.shared.pokemonDataManager
 
@@ -411,13 +413,13 @@ struct PokemonSelectorView: View {
 
                         PokemonCellView(
                             pokemon: poke,
-                            isSelected: selectedPokemonID == poke.id,
                             isCurrent: currentID == poke.id,
                             isAvailable: isAvailable
                         )
                         .onTapGesture {
                             guard isAvailable else { return }
-                            selectedPokemonID = poke.id
+                            // 즉시 적용 — 창을 열어둔 채 바뀐 모습을 보며 계속 고를 수 있다
+                            PetManager.shared.changePokemon(to: poke.id)
                         }
                     }
                 }
@@ -432,20 +434,18 @@ struct PokemonSelectorView: View {
         HStack {
             Spacer()
 
-            Button("Cancel") {
+            // 선택은 즉시 적용되므로 되돌리기는 창을 연 시점의 포켓몬으로 복원
+            Button("Revert") {
+                PetManager.shared.changePokemon(to: originalPokemonID)
                 PokemonSelectorWindowController.shared.close()
             }
             .keyboardShortcut(.cancelAction)
+            .disabled(PetManager.shared.currentPokemonID == originalPokemonID)
 
-            Button("Select") {
-                let id = selectedPokemonID
+            Button("Done") {
                 PokemonSelectorWindowController.shared.close()
-                if let id {
-                    PetManager.shared.changePokemon(to: id)
-                }
             }
             .keyboardShortcut(.defaultAction)
-            .disabled(selectedPokemonID == nil)
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 12)
@@ -456,7 +456,7 @@ struct PokemonSelectorView: View {
 
 private struct PokemonCellView: View {
     let pokemon: PokemonData
-    let isSelected: Bool
+    /// 현재 적용된 포켓몬 — 선택이 즉시 반영되므로 선택 상태와 같다
     let isCurrent: Bool
     let isAvailable: Bool
 
@@ -496,7 +496,7 @@ private struct PokemonCellView: View {
         .padding(.vertical, 8)
         .padding(.horizontal, 4)
         .background(
-            isSelected ? Color.accentColor.opacity(0.1) : Color.primary.opacity(0.03),
+            isCurrent ? Color.accentColor.opacity(0.1) : Color.primary.opacity(0.03),
             in: RoundedRectangle(cornerRadius: 8)
         )
         .overlay(
@@ -519,8 +519,6 @@ private struct PokemonCellView: View {
     }
 
     private var borderColor: Color {
-        if isSelected { return .accentColor.opacity(0.6) }
-        if isCurrent { return .green.opacity(0.5) }
-        return .clear
+        isCurrent ? .accentColor.opacity(0.6) : .clear
     }
 }
