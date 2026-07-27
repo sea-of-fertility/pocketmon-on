@@ -2,7 +2,7 @@
 //  PokemonDataManager.swift
 //  poketmon
 //
-//  pokemon_data.json을 Codable로 디코딩하여 649종 포켓몬 목록 제공
+//  pokemon_data.json을 Codable로 디코딩하여 포켓몬 목록 제공 (1025종 + 메가 26종)
 //  스프라이트 폴더 존재 여부로 사용 가능 여부 판별
 //
 
@@ -90,9 +90,15 @@ struct PokemonData: Codable, Identifiable {
         }
     }
 
-    /// 도감 번호 문자열 (#025) — 메가 폼은 원본 도감 번호를 표시
+    /// 사용자에게 보이는 도감 번호 — 메가 폼은 원본 종의 번호
+    ///
+    /// id는 메가 폼에서 합성 번호(20000+도감번호)이므로 표시·검색에 쓰면 안 된다.
+    /// 리소스 경로에는 id(idString)를 그대로 써야 한다.
+    var dexNumber: Int { baseID ?? id }
+
+    /// 도감 번호 문자열 (#025)
     var displayNumber: String {
-        String(format: "#%03d", baseID ?? id)
+        String(format: "#%03d", dexNumber)
     }
 
     /// 4자리 ID 문자열 (0025) — 리소스 경로용
@@ -102,11 +108,15 @@ struct PokemonData: Codable, Identifiable {
 
     /// 검색어 매칭 — 영문/한글/일본어 이름, 한글 초성(ㅍㅋㅊ), 도감 번호
     /// query는 소문자·공백 제거된 상태여야 함
+    ///
+    /// 번호 검색은 사용자에게 보이는 도감 번호(baseID)만 대상으로 한다.
+    /// 메가 폼의 id는 합성 번호(20000+도감번호)라 그대로 매칭하면
+    /// "2"에 메가 전체가, "6"에 메가후딘(20065)이 걸린다.
     func matches(query: String) -> Bool {
         name.lowercased().contains(query)
         || nameKo.contains(query)
         || nameJa.contains(query)
-        || String(id).contains(query)
+        || String(dexNumber).contains(query)
         || displayNumber.contains(query)
         || HangulSearch.matches(text: nameKo, query: query)
     }
@@ -116,7 +126,7 @@ struct PokemonData: Codable, Identifiable {
 
 final class PokemonDataManager {
 
-    /// 전체 649종 포켓몬 목록
+    /// 전체 포켓몬 목록 (기본 1025종 + 메가 26종)
     let allPokemon: [PokemonData]
 
     /// 스프라이트가 있는 포켓몬 ID 집합
