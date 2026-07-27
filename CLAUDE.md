@@ -49,7 +49,7 @@ poketmon/
 - 8방향 (Row 0~7: Down, DownRight, Right, UpRight, Up, UpLeft, Left, DownLeft)
 
 ## 결정 사항
-- 화면 가장자리 반사 옵션 토글 제거 (항상 반사 — 포켓몬은 가장자리에서 반대 방향으로 전환)
+- 화면 가장자리 반사 옵션 토글 제거 (항상 반사 — 포켓몬은 가장자리에 닿으면 목표점을 완전 랜덤으로 재설정)
 - 다른 윈도우 위에서만 이동 기능 제거 (Accessibility API 권한 부담)
 - Run 상태는 별도 모션 없이 Walk 애니메이션 속도 증가로 처리
 - 멀티 모니터: 모니터별 독립 윈도우 (per-screen windows) 방식. macOS가 단일 윈도우의 음수 origin을 강제 보정하므로 union 윈도우 불가
