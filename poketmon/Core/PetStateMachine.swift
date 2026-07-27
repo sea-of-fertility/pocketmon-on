@@ -60,6 +60,12 @@ final class PetStateMachine {
     /// 랜덤 목표점
     private(set) var targetPoint: CGPoint? = nil
 
+    /// 목표점 설정 시각 (도달 제한 시간 기준)
+    private var targetSetAt: Date = Date()
+
+    /// 현재 목표점의 도달 제한 시간(초) — 거리/속도 기반으로 동적 계산
+    private var targetDeadline: Double = 0
+
     /// 드래그 진입 전 상태 (드래그 종료 시 복원용)
     private var stateBeforeDrag: PetState = .idle
 
@@ -104,9 +110,9 @@ final class PetStateMachine {
             // Idle → Walk (랜덤 타이밍)
             if elapsed >= transitionTime {
                 transition(to: .walk)
-                // 기존 목표점이 없을 때만 새로 생성
-                if targetPoint == nil {
-                    targetPoint = randomTarget(in: screenBounds)
+                // 기존 목표점이 없거나 제한 시간이 지났으면 새로 생성
+                if targetPoint == nil || isTargetExpired {
+                    setTarget(randomTarget(in: screenBounds))
                 }
                 updateDirection()
                 return .walk
@@ -127,7 +133,7 @@ final class PetStateMachine {
             // Run → Walk (시간 경과)
             if elapsed >= transitionTime {
                 transition(to: .walk)
-                targetPoint = randomTarget(in: screenBounds)
+                setTarget(randomTarget(in: screenBounds))
                 updateDirection()
                 return .walk
             }
@@ -146,6 +152,7 @@ final class PetStateMachine {
         lastInteractionAt = Date()
         if currentState == .sleep {
             transition(to: .idle)
+            restartTargetDeadline()
         } else if currentState != .dragged && currentState != .reaction {
             transition(to: .reaction)
         }
@@ -163,6 +170,7 @@ final class PetStateMachine {
         lastInteractionAt = Date()
         if currentState == .sleep {
             transition(to: .idle)
+            restartTargetDeadline()
         }
     }
 
@@ -171,7 +179,8 @@ final class PetStateMachine {
         lastInteractionAt = Date()
         if currentState != .dragged {
             transition(to: .run)
-            targetPoint = targetPoint ?? ScreenGeometry.shared.randomTarget(margin: 40)
+            // 기존 목표점을 유지하되 Run 속도 기준으로 제한 시간 재계산
+            setTarget(targetPoint ?? ScreenGeometry.shared.randomTarget(margin: 40))
             updateDirection()
         }
     }
@@ -186,6 +195,8 @@ final class PetStateMachine {
     /// 드래그 종료 → 드래그 전 상태로 복원
     func endDrag() {
         transition(to: stateBeforeDrag)
+        // 드래그로 위치가 바뀌었으므로 새 위치 기준으로 제한 시간 재계산
+        restartTargetDeadline()
     }
 
     /// Reaction 완료 → Idle
@@ -202,14 +213,79 @@ final class PetStateMachine {
         stateEnteredAt = Date()
         transitionTime = Double.random(in: SettingsManager.shared.idleToWalkRange)
         targetPoint = nil
+        targetDeadline = 0
     }
+
+    // MARK: - 목표점 관리
+
+    /// 목표점 설정 + 도달 제한 시간 계산 (targetPoint는 항상 이 메서드로만 변경)
+    ///
+    /// 제한 시간 = (남은 거리 / 현재 속도) × 여유 배수 + 하한
+    /// 실제로 걷는 시간만 거리를 줄이므로, Idle로 쉬는 시간까지 감수하도록
+    /// 여유 배수를 활동 빈도 설정에서 동적으로 구한다.
+    private func setTarget(_ point: CGPoint) {
+        targetPoint = point
+        targetSetAt = Date()
+
+        let dx = point.x - position.x
+        let dy = point.y - position.y
+        let distance = sqrt(dx * dx + dy * dy)
+
+        // 현재 상태의 이동 속도(px/frame) → px/sec
+        let settings = SettingsManager.shared
+        let speed = (currentState == .run) ? settings.runSpeedValue : settings.walkSpeedValue
+        let pixelsPerSecond = max(speed * Self.framesPerSecond, 1)
+
+        let travelTime = Double(distance / pixelsPerSecond)
+        targetDeadline = travelTime * Self.deadlineSlackMultiplier + Self.deadlineMinimum
+    }
+
+    /// 예상 이동 시간에 곱하는 여유 배수
+    ///
+    /// Walk↔Idle 순환에서 걷는 시간의 비율(walk / (idle + walk))의 역수.
+    /// 여기에 랜덤 편차와 경계 반사로 인한 우회를 감수하는 1.3배를 더 곱한다.
+    /// 활동 빈도가 낮으면 쉬는 시간이 길어 배수가 커진다(빈도 1: 약 4.6배, 빈도 5: 약 1.4배).
+    private static var deadlineSlackMultiplier: Double {
+        let settings = SettingsManager.shared
+        let idleMid = (settings.idleToWalkRange.lowerBound + settings.idleToWalkRange.upperBound) / 2
+        let walkMid = (settings.walkToIdleRange.lowerBound + settings.walkToIdleRange.upperBound) / 2
+        let walkRatio = walkMid / (idleMid + walkMid)
+        return (1.0 / max(walkRatio, 0.1)) * 1.3
+    }
+
+    /// 기존 목표점을 유지한 채 제한 시간만 다시 시작
+    ///
+    /// 수면(게임 루프 정지)이나 드래그처럼 이동이 멈춘 채 시간이 흐른 뒤,
+    /// 남은 거리 기준으로 제한 시간을 다시 계산해 즉시 만료되는 것을 막는다.
+    private func restartTargetDeadline() {
+        guard let target = targetPoint else { return }
+        setTarget(target)
+    }
+
+    /// 목표점 도달 제한 시간 초과 여부
+    private var isTargetExpired: Bool {
+        targetPoint != nil && Date().timeIntervalSince(targetSetAt) >= targetDeadline
+    }
+
+    /// 게임 루프 주기 (GameLoop와 동일)
+    private static let framesPerSecond: CGFloat = 30.0
+
+    /// 제한 시간 하한 (초) — 가까운 목표점에서 즉시 만료되는 것 방지
+    private static let deadlineMinimum: Double = 5.0
 
     // MARK: - 이동 로직
 
     /// 목표점을 향해 이동 + 경계 반사
     private func moveTowardTarget(speed: CGFloat, screenBounds: CGRect) {
         guard let target = targetPoint else {
-            targetPoint = randomTarget(in: screenBounds)
+            setTarget(randomTarget(in: screenBounds))
+            updateDirection()
+            return
+        }
+
+        // 제한 시간 내 도달 실패 — 새 목표점으로 교체
+        if isTargetExpired {
+            setTarget(randomTarget(in: screenBounds))
             updateDirection()
             return
         }
@@ -220,7 +296,7 @@ final class PetStateMachine {
 
         // 목표점 도달
         if distance < speed * 2 {
-            targetPoint = randomTarget(in: screenBounds)
+            setTarget(randomTarget(in: screenBounds))
             updateDirection()
             return
         }
@@ -255,7 +331,7 @@ final class PetStateMachine {
         position = clampedPos
 
         if bounced {
-            targetPoint = geo.randomTarget(margin: 40)
+            setTarget(geo.randomTarget(margin: 40))
             updateDirection()
         }
     }
