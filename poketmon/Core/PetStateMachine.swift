@@ -220,9 +220,9 @@ final class PetStateMachine {
 
     /// 목표점 설정 + 도달 제한 시간 계산 (targetPoint는 항상 이 메서드로만 변경)
     ///
-    /// 제한 시간 = (남은 거리 / 현재 속도) × 여유 배수 + 하한
-    /// 실제로 걷는 시간만 거리를 줄이므로, Idle로 쉬는 시간까지 감수하도록
-    /// 여유 배수를 활동 빈도 설정에서 동적으로 구한다.
+    /// 제한 시간 = min((남은 거리 / 현재 속도) × 여유 배수 + 하한, 상한)
+    /// - 여유 배수: 활동 빈도에서 산출 (Idle로 쉬는 시간을 감수)
+    /// - 상한: 수면 타임아웃의 절반 (잠들기 전 최소 2회는 목표점을 재시도)
     private func setTarget(_ point: CGPoint) {
         targetPoint = point
         targetSetAt = Date()
@@ -237,7 +237,17 @@ final class PetStateMachine {
         let pixelsPerSecond = max(speed * Self.framesPerSecond, 1)
 
         let travelTime = Double(distance / pixelsPerSecond)
-        targetDeadline = travelTime * Self.deadlineSlackMultiplier + Self.deadlineMinimum
+        let deadline = travelTime * Self.deadlineSlackMultiplier + Self.deadlineMinimum
+        targetDeadline = min(deadline, Self.deadlineCap)
+    }
+
+    /// 제한 시간 상한 (초) — 수면 타임아웃의 절반
+    ///
+    /// 상한이 없으면 조용한 설정(활동 빈도 1 + 느린 속도)에서 제한 시간이
+    /// 수면 타임아웃보다 길어져, 목표점이 만료되기 전에 잠들어 제한 시간이
+    /// 무의미해진다. 절반으로 묶어 어떤 설정 조합에서도 최소 2회는 작동하게 한다.
+    private static var deadlineCap: Double {
+        max(SettingsManager.shared.sleepTimeoutSeconds * 0.5, deadlineMinimum)
     }
 
     /// 예상 이동 시간에 곱하는 여유 배수
@@ -245,6 +255,7 @@ final class PetStateMachine {
     /// Walk↔Idle 순환에서 걷는 시간의 비율(walk / (idle + walk))의 역수.
     /// 여기에 랜덤 편차와 경계 반사로 인한 우회를 감수하는 1.3배를 더 곱한다.
     /// 활동 빈도가 낮으면 쉬는 시간이 길어 배수가 커진다(빈도 1: 약 4.6배, 빈도 5: 약 1.4배).
+    /// 배수가 커져 제한 시간이 과도해지는 것은 deadlineCap이 막는다.
     private static var deadlineSlackMultiplier: Double {
         let settings = SettingsManager.shared
         let idleMid = (settings.idleToWalkRange.lowerBound + settings.idleToWalkRange.upperBound) / 2
