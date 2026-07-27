@@ -183,9 +183,9 @@ final class SettingsManager {
 
     /// Idle → Walk 전환 시간 범위 (초)
     var idleToWalkRange: ClosedRange<Double> {
-        // 1(조용)=5~10, 2=3~7, 3=2~5(기본), 4=1~3, 5=0.5~2(활발)
+        // 1(조용)=4~8, 2=3~7, 3=2~5(기본), 4=1~3, 5=0.5~2(활발)
         switch activityFrequency {
-        case 1: return 5.0...10.0
+        case 1: return 4.0...8.0
         case 2: return 3.0...7.0
         case 3: return 2.0...5.0
         case 4: return 1.0...3.0
@@ -196,9 +196,9 @@ final class SettingsManager {
 
     /// Walk → Idle 전환 시간 범위 (초)
     var walkToIdleRange: ClosedRange<Double> {
-        // 1(조용)=2~4, 2=2.5~6, 3=3~10(기본), 4=5~15, 5=8~20(활발)
+        // 1(조용)=2.5~5, 2=2.5~6, 3=3~10(기본), 4=5~15, 5=8~20(활발)
         switch activityFrequency {
-        case 1: return 2.0...4.0
+        case 1: return 2.5...5.0
         case 2: return 2.5...6.0
         case 3: return 3.0...10.0
         case 4: return 5.0...15.0
