@@ -89,7 +89,11 @@ final class PetStateMachine {
             transitionTime = Double.random(in: settings.walkToIdleRange)
         case .run:
             transitionTime = runDuration
-        case .sleep, .reaction, .dragged:
+        case .sleep:
+            transitionTime = 0
+            // 수면은 무기한 상태 — 깨어나면 주변을 새로 살피도록 목표점을 버린다
+            clearTarget()
+        case .reaction, .dragged:
             transitionTime = 0
         }
     }
@@ -152,7 +156,6 @@ final class PetStateMachine {
         lastInteractionAt = Date()
         if currentState == .sleep {
             transition(to: .idle)
-            restartTargetDeadline()
         } else if currentState != .dragged && currentState != .reaction {
             transition(to: .reaction)
         }
@@ -170,7 +173,6 @@ final class PetStateMachine {
         lastInteractionAt = Date()
         if currentState == .sleep {
             transition(to: .idle)
-            restartTargetDeadline()
         }
     }
 
@@ -212,8 +214,7 @@ final class PetStateMachine {
         currentState = .idle
         stateEnteredAt = Date()
         transitionTime = Double.random(in: SettingsManager.shared.idleToWalkRange)
-        targetPoint = nil
-        targetDeadline = 0
+        clearTarget()
     }
 
     // MARK: - 목표점 관리
@@ -264,10 +265,16 @@ final class PetStateMachine {
         return (1.0 / max(walkRatio, 0.1)) * 1.3
     }
 
+    /// 목표점 폐기 — 다음 Walk 진입 시 새로 생성된다
+    private func clearTarget() {
+        targetPoint = nil
+        targetDeadline = 0
+    }
+
     /// 기존 목표점을 유지한 채 제한 시간만 다시 시작
     ///
-    /// 수면(게임 루프 정지)이나 드래그처럼 이동이 멈춘 채 시간이 흐른 뒤,
-    /// 남은 거리 기준으로 제한 시간을 다시 계산해 즉시 만료되는 것을 막는다.
+    /// 드래그처럼 이동이 멈춘 채 위치가 바뀐 뒤, 남은 거리 기준으로
+    /// 제한 시간을 다시 계산해 즉시 만료되는 것을 막는다.
     private func restartTargetDeadline() {
         guard let target = targetPoint else { return }
         setTarget(target)
