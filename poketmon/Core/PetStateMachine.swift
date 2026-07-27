@@ -106,8 +106,10 @@ final class PetStateMachine {
 
         switch currentState {
         case .idle:
-            // Idle → Sleep (장시간 비활동)
-            if Date().timeIntervalSince(lastInteractionAt) >= SettingsManager.shared.sleepTimeoutSeconds {
+            // Idle → Sleep (장시간 비활동) — "잠들지 않음" 설정이면 건너뜀
+            let settings = SettingsManager.shared
+            if !settings.isSleepDisabled,
+               Date().timeIntervalSince(lastInteractionAt) >= settings.sleepTimeoutSeconds {
                 transition(to: .sleep)
                 return .sleep
             }
@@ -242,14 +244,21 @@ final class PetStateMachine {
         targetDeadline = min(deadline, Self.deadlineCap)
     }
 
-    /// 제한 시간 상한 (초) — 수면 타임아웃의 절반
+    /// 제한 시간 상한 (초) — 수면 타임아웃의 절반, 단 절대 상한 이내
     ///
     /// 상한이 없으면 조용한 설정(활동 빈도 1 + 느린 속도)에서 제한 시간이
     /// 수면 타임아웃보다 길어져, 목표점이 만료되기 전에 잠들어 제한 시간이
     /// 무의미해진다. 절반으로 묶어 어떤 설정 조합에서도 최소 2회는 작동하게 한다.
+    ///
+    /// 수면 타임아웃이 길거나(30분, 1시간) 잠들지 않음(무한)이면 절반 규칙만으로는
+    /// 상한이 사라지므로, 교착 방지가 유지되도록 절대 상한을 함께 적용한다.
     private static var deadlineCap: Double {
-        max(SettingsManager.shared.sleepTimeoutSeconds * 0.5, deadlineMinimum)
+        let half = SettingsManager.shared.sleepTimeoutSeconds * 0.5
+        return max(min(half, deadlineAbsoluteCap), deadlineMinimum)
     }
+
+    /// 제한 시간 절대 상한 (초) — 수면 설정과 무관하게 목표점을 재시도하는 주기
+    private static let deadlineAbsoluteCap: Double = 120.0
 
     /// 예상 이동 시간에 곱하는 여유 배수
     ///

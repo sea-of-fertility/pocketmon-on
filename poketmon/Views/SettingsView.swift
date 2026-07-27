@@ -205,17 +205,17 @@ struct SettingsView: View {
             valueLabel: settings.activityFrequencyLabel
         )
 
-        // 수면까지
+        // 수면까지 — 2/3/5/10/15/30분, 1시간, Never (인덱스로 조작)
         SettingsStepSliderRow(
             label: "Sleep after",
             value: Binding(
-                get: { settings.sleepTimeout },
-                set: { settings.sleepTimeout = $0 }
+                get: { settings.sleepTimeoutIndex },
+                set: { settings.setSleepTimeout(index: $0) }
             ),
-            range: 1...10,
-            minLabel: "1 min",
-            maxLabel: "10 min",
-            valueLabel: String(localized: "\(settings.sleepTimeout) min")
+            range: 0...(SettingsManager.sleepTimeoutOptions.count - 1),
+            minLabel: "2 min",
+            maxLabel: "Never",
+            valueLabel: settings.sleepTimeoutLabel
         )
     }
 

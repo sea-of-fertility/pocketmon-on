@@ -132,7 +132,9 @@ final class SettingsManager {
         }
     }
 
-    /// 수면까지 (1~10분, 기본 3분)
+    /// 수면까지 (분 단위, 0 = 잠들지 않음, 기본 3분)
+    ///
+    /// 저장은 분 값 그대로 — UI 슬라이더는 sleepTimeoutOptions의 인덱스로 다룬다.
     var sleepTimeout: Int = Default.sleepTimeout {
         didSet {
             guard !isLoading else { return }
@@ -207,9 +209,46 @@ final class SettingsManager {
         }
     }
 
-    /// 수면 타임아웃 (초)
+    /// 수면까지 선택 가능한 값 (분) — 0은 "잠들지 않음"
+    ///
+    /// 뒤로 갈수록 간격을 넓힌 로그 스케일. 3분과 4분의 차이는 체감되지 않지만
+    /// 10분과 30분의 차이는 확실히 체감되므로 균일 간격이 적절하지 않다.
+    static let sleepTimeoutOptions: [Int] = [2, 3, 5, 10, 15, 30, 60, 0]
+
+    /// 잠들지 않음 설정 여부
+    var isSleepDisabled: Bool {
+        sleepTimeout <= 0
+    }
+
+    /// 수면 타임아웃 (초) — 잠들지 않음이면 무한
     var sleepTimeoutSeconds: Double {
-        Double(sleepTimeout) * 60.0
+        isSleepDisabled ? .infinity : Double(sleepTimeout) * 60.0
+    }
+
+    /// 현재 sleepTimeout의 슬라이더 인덱스 (없는 값이면 가장 가까운 단계)
+    var sleepTimeoutIndex: Int {
+        let options = Self.sleepTimeoutOptions
+        if let exact = options.firstIndex(of: sleepTimeout) { return exact }
+        // 구버전에서 저장된 값(1, 4분 등) 보정 — Never를 제외하고 가장 가까운 단계
+        let minutes = options.dropLast()
+        let nearest = minutes.enumerated().min {
+            abs($0.element - sleepTimeout) < abs($1.element - sleepTimeout)
+        }
+        return nearest?.offset ?? options.firstIndex(of: Default.sleepTimeout) ?? 1
+    }
+
+    /// 슬라이더 인덱스로 sleepTimeout 설정
+    func setSleepTimeout(index: Int) {
+        let options = Self.sleepTimeoutOptions
+        guard options.indices.contains(index) else { return }
+        sleepTimeout = options[index]
+    }
+
+    /// 수면까지 표시 텍스트
+    var sleepTimeoutLabel: String {
+        if isSleepDisabled { return String(localized: "Never") }
+        if sleepTimeout >= 60 { return String(localized: "1 hr") }
+        return String(localized: "\(sleepTimeout) min")
     }
 
     /// 이동 속도 표시 텍스트
