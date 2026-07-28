@@ -16,6 +16,12 @@ final class PokemonSelectorWindowController: NSObject, NSWindowDelegate {
 
     private var panel: NSPanel?
 
+    /// 창을 연 시점의 포켓몬 — 확정 없이 닫으면 이 포켓몬으로 되돌린다
+    private var pokemonBeforePreview: Int?
+
+    /// 선택 확정 여부 (Select를 눌렀는지)
+    private var didConfirm = false
+
     /// 선택기 윈도우 열기 (이미 열려있으면 앞으로 가져오기)
     func open() {
         if let existing = panel, existing.isVisible {
@@ -26,6 +32,8 @@ final class PokemonSelectorWindowController: NSObject, NSWindowDelegate {
         }
 
         panel = nil
+        pokemonBeforePreview = PetManager.shared.currentPokemonID
+        didConfirm = false
 
         let newPanel = NSPanel(
             contentRect: CGRect(x: 0, y: 0, width: 480, height: 660),
@@ -65,6 +73,13 @@ final class PokemonSelectorWindowController: NSObject, NSWindowDelegate {
         self.panel = newPanel
     }
 
+    /// 현재 미리보기 중인 포켓몬을 확정 저장하고 창을 닫는다
+    func confirmSelection() {
+        didConfirm = true
+        PetManager.shared.changePokemon(to: PetManager.shared.currentPokemonID)
+        close()
+    }
+
     /// 선택기 윈도우 닫기
     func close() {
         panel?.close()
@@ -73,7 +88,13 @@ final class PokemonSelectorWindowController: NSObject, NSWindowDelegate {
 
     // MARK: - NSWindowDelegate
 
+    /// 확정하지 않고 닫힌 경우(Cancel·타이틀바 X·Esc) 미리보기를 되돌린다
     func windowWillClose(_ notification: Notification) {
+        if !didConfirm, let original = pokemonBeforePreview {
+            PetManager.shared.previewPokemon(original)
+        }
+        pokemonBeforePreview = nil
+        didConfirm = false
         ThumbnailCache.shared.clearAll()
         panel = nil
     }
@@ -168,9 +189,6 @@ struct PokemonSelectorView: View {
     @State private var activeTypes: Set<String> = []
     @State private var showLegendary = false
     @State private var showMythical = false
-
-    /// 창을 연 시점의 포켓몬 — Revert로 되돌릴 대상
-    @State private var originalPokemonID: Int = PetManager.shared.currentPokemonID
 
     private let dataManager = PetManager.shared.pokemonDataManager
 
@@ -418,8 +436,8 @@ struct PokemonSelectorView: View {
                         )
                         .onTapGesture {
                             guard isAvailable else { return }
-                            // 즉시 적용 — 창을 열어둔 채 바뀐 모습을 보며 계속 고를 수 있다
-                            PetManager.shared.changePokemon(to: poke.id)
+                            // 미리보기 — 화면만 바꾸고 저장은 Select에서만
+                            PetManager.shared.previewPokemon(poke.id)
                         }
                     }
                 }
@@ -434,16 +452,14 @@ struct PokemonSelectorView: View {
         HStack {
             Spacer()
 
-            // 선택은 즉시 적용되므로 되돌리기는 창을 연 시점의 포켓몬으로 복원
-            Button("Revert") {
-                PetManager.shared.changePokemon(to: originalPokemonID)
+            // 미리보기만 했으므로 저장 없이 닫으면 원래 포켓몬으로 복원된다
+            Button("Cancel") {
                 PokemonSelectorWindowController.shared.close()
             }
             .keyboardShortcut(.cancelAction)
-            .disabled(PetManager.shared.currentPokemonID == originalPokemonID)
 
-            Button("Done") {
-                PokemonSelectorWindowController.shared.close()
+            Button("Select") {
+                PokemonSelectorWindowController.shared.confirmSelection()
             }
             .keyboardShortcut(.defaultAction)
         }

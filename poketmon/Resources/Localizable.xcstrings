@@ -273,6 +273,22 @@
         }
       }
     },
+    "Cancel": {
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャンセル"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "취소"
+          }
+        }
+      }
+    },
     "Change Pokémon...": {
       "localizations": {
         "ko": {
@@ -381,22 +397,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "表示"
-          }
-        }
-      }
-    },
-    "Done": {
-      "localizations": {
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "閉じる"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "닫기"
           }
         }
       }
@@ -945,22 +945,6 @@
         }
       }
     },
-    "Revert": {
-      "localizations": {
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "元に戻す"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "되돌리기"
-          }
-        }
-      }
-    },
     "Rock": {
       "localizations": {
         "ko": {
@@ -1005,6 +989,22 @@
           "stringUnit": {
             "state": "translated",
             "value": "名前または番号で検索..."
+          }
+        }
+      }
+    },
+    "Select": {
+      "localizations": {
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "선택"
           }
         }
       }

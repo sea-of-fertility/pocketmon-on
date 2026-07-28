@@ -78,12 +78,21 @@ final class PetManager {
         )
     }
 
-    /// 포켓몬 교체 (현재 위치 유지, 선택기에서 호출)
+    /// 포켓몬 교체 + 설정 저장 (현재 위치 유지, 선택기에서 확정 시 호출)
     func changePokemon(to id: Int) {
+        previewPokemon(id)
+        settingsManager.savedPokemonID = id
+    }
+
+    /// 포켓몬 미리보기 — 화면만 바꾸고 설정에는 저장하지 않는다
+    ///
+    /// 선택기에서 초상화를 클릭할 때 사용한다. 저장은 Select(확정) 시점에만
+    /// 일어나므로, 취소하거나 창을 닫으면 저장된 포켓몬으로 되돌릴 수 있다.
+    /// 위치는 유지하고 애니메이션 상태만 Idle로 초기화한다.
+    func previewPokemon(_ id: Int) {
         guard id != currentPokemonID else { return }
         resumeGameLoopFromSleep()
         currentPokemonID = id
-        settingsManager.savedPokemonID = id
         spriteAnimator.loadWithTransition(pokemonID: id)
         stateMachine.resetToIdle()
     }
