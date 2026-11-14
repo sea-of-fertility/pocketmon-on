@@ -6,3 +6,7 @@ xcuserdata/
 
 # 배포 패키지
 *.dmg
+
+# 빌드 산출물
+build/
+dist/
